@@ -1,0 +1,651 @@
+.git:
+итого 56K
+drwxrwxr-x  8 boris boris 4,0K окт 17 12:24 .
+drwxrwxr-x  6 boris boris 4,0K окт 17 12:35 ..
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 branches
+-rw-rw-r--  1 boris boris   11 окт 17 12:23 COMMIT_EDITMSG
+-rw-rw-r--  1 boris boris  269 окт 12 17:01 config
+-rw-rw-r--  1 boris boris   73 окт 12 17:00 description
+-rw-rw-r--  1 boris boris   23 окт 12 17:00 HEAD
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 hooks
+-rw-rw-r--  1 boris boris 1,3K окт 17 12:23 index
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 info
+drwxrwxr-x  3 boris boris 4,0K окт 12 17:00 logs
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 objects
+-rw-rw-r--  1 boris boris   41 окт 17 12:18 ORIG_HEAD
+drwxrwxr-x  5 boris boris 4,0K окт 12 17:01 refs
+
+.git/branches:
+итого 8,0K
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 8 boris boris 4,0K окт 17 12:24 ..
+
+.git/hooks:
+итого 56K
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 8 boris boris 4,0K окт 17 12:24 ..
+-rwxrwxr-x 1 boris boris  478 окт 12 17:00 applypatch-msg.sample
+-rwxrwxr-x 1 boris boris  896 окт 12 17:00 commit-msg.sample
+-rwxrwxr-x 1 boris boris 3,3K окт 12 17:00 fsmonitor-watchman.sample
+-rwxrwxr-x 1 boris boris  189 окт 12 17:00 post-update.sample
+-rwxrwxr-x 1 boris boris  424 окт 12 17:00 pre-applypatch.sample
+-rwxrwxr-x 1 boris boris 1,7K окт 12 17:00 pre-commit.sample
+-rwxrwxr-x 1 boris boris 1,5K окт 12 17:00 prepare-commit-msg.sample
+-rwxrwxr-x 1 boris boris 1,4K окт 12 17:00 pre-push.sample
+-rwxrwxr-x 1 boris boris 4,8K окт 12 17:00 pre-rebase.sample
+-rwxrwxr-x 1 boris boris  544 окт 12 17:00 pre-receive.sample
+-rwxrwxr-x 1 boris boris 3,6K окт 12 17:00 update.sample
+
+.git/info:
+итого 12K
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 8 boris boris 4,0K окт 17 12:24 ..
+-rw-rw-r-- 1 boris boris  240 окт 12 17:00 exclude
+
+.git/logs:
+итого 16K
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 8 boris boris 4,0K окт 17 12:24 ..
+-rw-rw-r-- 1 boris boris 1001 окт 17 12:23 HEAD
+drwxrwxr-x 4 boris boris 4,0K окт 12 17:01 refs
+
+.git/logs/refs:
+итого 16K
+drwxrwxr-x 4 boris boris 4,0K окт 12 17:01 .
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:00 ..
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:00 heads
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:01 remotes
+
+.git/logs/refs/heads:
+итого 12K
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 4 boris boris 4,0K окт 12 17:01 ..
+-rw-rw-r-- 1 boris boris  842 окт 17 12:23 master
+
+.git/logs/refs/remotes:
+итого 12K
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:01 .
+drwxrwxr-x 4 boris boris 4,0K окт 12 17:01 ..
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:01 origin
+
+.git/logs/refs/remotes/origin:
+итого 12K
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:01 .
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:01 ..
+-rw-rw-r-- 1 boris boris  304 окт 12 17:03 master
+
+.git/objects:
+итого 312K
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 .
+drwxrwxr-x  8 boris boris 4,0K окт 17 12:24 ..
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 01
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 03
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 04
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:03 07
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 0c
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 0d
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 0f
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 12
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 13
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 16
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 18
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 1d
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 1e
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 22
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 26
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 2c
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 2e
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 2f
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:02 30
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 31
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 33
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 34
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 38
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 3a
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 44
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 49
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 4b
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 4e
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 5a
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 5d
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 5e
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 5f
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 63
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 68
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 6d
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 6e
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 71
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 73
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 78
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 7b
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 83
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 90
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 94
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 95
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 9f
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 a1
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 a5
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 a8
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 a9
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 ad
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 af
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 b6
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:21 ba
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 be
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 bf
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 c6
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 c7
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 c9
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 cf
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 d2
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 d4
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 d8
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 db
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 e1
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 e3
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 e6
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:03 ec
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 ed
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 f0
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 f2
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:02 f4
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 f8
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 fc
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 ff
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 info
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 pack
+
+.git/objects/01:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  185 окт 17 12:23 6ec2574f4fa9b44402b44913bc820a8ebe3449
+
+.git/objects/03:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  847 окт 12 17:00 0f1d3ceab72285d2c476b69a94c8d4efd79b76
+
+.git/objects/04:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 1,3K окт 17 12:16 d6ffbd5fe5887bd6aee802881db45e838a16ce
+
+.git/objects/07:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:03 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  182 окт 12 17:03 14549725e54c9666ba191b5170798c2230d0f4
+
+.git/objects/0c:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  654 окт 12 17:00 cfa70f6ff9ec79a30232af62047c0defce5db9
+
+.git/objects/0d:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  182 окт 12 17:00 f4c8d2a45b633e64f64449aae87beedc4c1401
+
+.git/objects/0f:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   49 окт 17 12:17 d3c5e22f54275cb6ad4c849b7962e6c12fe2c6
+
+.git/objects/12:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  204 окт 12 17:00 3e89c247c04b23a16e86c1446ce5dcc78ad130
+
+.git/objects/13:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  493 окт 12 17:00 0e777c92837c69449c4285272a9c1764fa920a
+
+.git/objects/16:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  609 окт 12 17:00 69dc08e2cabbe2468178028fed0071a824ce2a
+
+.git/objects/18:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  730 окт 12 17:00 9680772a9cc0a7dc5b30bc952e5c72fc433eb8
+
+.git/objects/1d:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 7,5K окт 12 17:00 1ed751bbe73e5875a46ac3810a29d025143490
+
+.git/objects/1e:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  908 окт 17 12:16 e5d92308fb9b0c06c3037e50f93d271c75de9d
+
+.git/objects/22:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  592 окт 17 12:16 fabb23f5610e0ba67c3a58add7c15800b49707
+
+.git/objects/26:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   53 окт 17 12:17 ac655c4d45257d941f0cf52e0130034adad621
+
+.git/objects/2c:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   47 окт 17 12:17 35787cad8a19de3b1b34eb5142bfecdf892095
+
+.git/objects/2e:
+итого 20K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 9,3K окт 17 12:16 f54891506f308190c2fd99a154a92282062c51
+
+.git/objects/2f:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 1,5K окт 17 12:16 75b10fad00c2ec6546999269cb150e7ba379ec
+
+.git/objects/30:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:02 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   68 окт 12 17:02 5a377cf25523c3c7a17c2c4089b7f0b573d1d8
+
+.git/objects/31:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  474 окт 17 12:16 d532ebaad8bb05fb571dafca4a2d8344ee4c37
+
+.git/objects/33:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  496 окт 12 17:00 7ba856ef50ac041d87123be25d0c79e91df209
+
+.git/objects/34:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  214 окт 17 12:17 210cd609772cd2dbf80bd1c69dbc6e791b7c3f
+
+.git/objects/38:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  607 окт 17 12:16 03773af482f2ade61f02b52d22ccde084f115a
+-r--r--r--  1 boris boris  153 окт 17 12:23 cf46144fcfa9bb2ec5b2d6b6c183a178a439b0
+
+.git/objects/3a:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   47 окт 17 12:17 5a0722c777694a3932526eb847ffa3a8a058c7
+-r--r--r--  1 boris boris 1,4K окт 12 17:00 90f0398aa9565381e2e8debdc401e3419ad9ed
+
+.git/objects/44:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  254 окт 17 12:16 8ab9e8ba490f1ad340118277b98ea91ff4a1f3
+
+.git/objects/49:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  287 окт 17 12:17 8d0a732f7d89604a40fbf7d6a896047f3b0744
+
+.git/objects/4b:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  296 окт 12 17:00 661a5ffc3c46924b456f0eac25ea4c6e9b4047
+
+.git/objects/4e:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   46 окт 17 12:17 83790698e4ea017d72032d3231832c737c92e5
+-r--r--r--  1 boris boris 1,1K окт 12 17:00 8c81c97a12f58d5f0f3452099460ff0ff8ee68
+
+.git/objects/5a:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   50 окт 12 17:00 93ef5cfbf61bb69b157aee27ef9e771dbe362d
+
+.git/objects/5d:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   46 окт 12 17:00 b7b19125f3c8ac0c9de20c4bdd3b148166d0f7
+
+.git/objects/5e:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  196 окт 12 17:00 fff8b9b51ed2fdc8109f208fe10efb35c4c63f
+
+.git/objects/5f:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   47 окт 17 12:17 893052f41eb3154a4f92917597f521cc9acd93
+
+.git/objects/63:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  321 окт 17 12:17 62f17efc021d3f2a79ecaa9514125fbdbe2e8f
+-r--r--r--  1 boris boris   45 окт 12 17:00 ca2bfc3671191ecf33cb062d56dbb30d806ece
+
+.git/objects/68:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  125 окт 12 17:00 3bc0ab6fb79094463364dde4446cfe47198941
+
+.git/objects/6d:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  292 окт 17 12:16 6a80d90115f84ac521b0c89b01e2935ce70d75
+
+.git/objects/6e:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   50 окт 12 17:00 a3726895abf5d10f0f54bb9bcfda2cf8d733d9
+
+.git/objects/71:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  622 окт 12 17:00 3c6517072268f0a92b696e63695307c558d765
+
+.git/objects/73:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  674 окт 17 12:16 a358a73c377c24763f9fd188b32a0429fb484c
+
+.git/objects/78:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   88 окт 12 17:00 b2cc53b203f0b97534bb1184cdc7b474339fb4
+
+.git/objects/7b:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 2,3K окт 17 12:16 256fa1f5e350c5283b496115d8cacabcebb933
+
+.git/objects/83:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 2,3K окт 12 17:00 c0ccade0929ed31ac28a49676eaea5a7479dfa
+
+.git/objects/90:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   45 окт 12 17:00 03f1e3bda20a7d7b80e2c630a0a9fa4b549737
+
+.git/objects/94:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   16 окт 12 17:00 5c9b46d684f08ec84cb316e1dc0061e361f794
+-r--r--r--  1 boris boris  155 окт 17 12:16 a25f7f4cb416c083d265558da75d457237d671
+
+.git/objects/95:
+итого 100M
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 100M окт 17 12:16 bdc23c47e7e0a9a2e4daa2df363f9b96936c91
+
+.git/objects/9f:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  319 окт 12 17:00 2e6025107b7e1757f3f871a88f7ca8a06cd683
+-r--r--r--  1 boris boris 3,8K окт 12 17:00 a0cb94f4f9a6a54e67781af8c1e62460e6def0
+
+.git/objects/a1:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  196 окт 17 12:17 2edaf385b76197a0735b4e4ea4546f5b4c9e4d
+
+.git/objects/a5:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  704 окт 17 12:16 5f1a9862094b5f9849f95c38fa33f99fb45379
+
+.git/objects/a8:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   48 окт 12 17:00 cc4c9175457c75b7fb2603011b848ef07ffbae
+
+.git/objects/a9:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  208 окт 12 17:00 da4817909d17e534a289a8976b4d7adca96885
+
+.git/objects/ad:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 1,1K окт 17 12:16 f297eb37895a7a38898f5ea2a93b522fc8b772
+
+.git/objects/af:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   59 окт 12 17:00 c144f5095a3fa7220f628188ab8331a5244376
+
+.git/objects/b6:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   64 окт 12 17:00 30af4f60104807979d5c43fcb756cca84e56c8
+-r--r--r--  1 boris boris  251 окт 12 17:00 430419475d4772c6e3676902cb776be7856ec4
+
+.git/objects/ba:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:21 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  174 окт 17 12:21 6b8159e789843ca7af76e693212e3a4a361905
+
+.git/objects/be:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 1,4K окт 12 17:00 e802e6de4b34b10a84df7bc5366e3e1a526a15
+
+.git/objects/bf:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  624 окт 12 17:00 1106fe138e9af87621d61330e21615ad8d1e45
+
+.git/objects/c6:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   59 окт 12 17:00 ef119be4944241de235f07966e4c45902049c6
+
+.git/objects/c7:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 3,6K окт 12 17:00 9a3b4d685e2004b5475e8639847581d4305b77
+
+.git/objects/c9:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   47 окт 12 17:00 baca6b754cdf713f4fae378714a479e79c5e0a
+
+.git/objects/cf:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  127 окт 12 17:00 7788a5384703486dae15ee56cdc9e62b2340d3
+
+.git/objects/d2:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   47 окт 12 17:00 0b63aea2b5baf44c2e282201d200c46158474e
+
+.git/objects/d4:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  287 окт 17 12:23 30be97e167b2c0451ac323d7477dd8e9ebdf29
+
+.git/objects/d8:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   27 окт 12 17:00 b59aeb9658a79bb18b14116c7f4f9b48879ada
+-r--r--r--  1 boris boris   45 окт 17 12:17 ea18b85a33dbdcfcb61e2ad79636d7879e00f9
+
+.git/objects/db:
+итого 20K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:23 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 9,1K окт 17 12:23 fe50ac9a3725a4eb217ae96fdd52b381d3b3b0
+
+.git/objects/e1:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   54 окт 12 17:00 53f8979de0a98e8aae5e99e053e4f6952f16af
+
+.git/objects/e3:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   45 окт 17 12:17 d11c47a323244afa71daadbc64179628a80371
+
+.git/objects/e6:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   15 окт 12 17:00 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+.git/objects/ec:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:03 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  155 окт 12 17:03 7096af5a117e2001b29d8b5ff08ff5f036a2f6
+
+.git/objects/ed:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   49 окт 12 17:00 b5ddf0467c0ad4f9c545083159a18694da3af3
+
+.git/objects/f0:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  597 окт 17 12:16 9478634bf4ba468413bf37905283c6e662c4e1
+
+.git/objects/f2:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  283 окт 12 17:00 0e39fae0f774feb9bda56c3a8d095e63653555
+-r--r--r--  1 boris boris  170 окт 17 12:17 9960b12a46a0c1d3a45fe6b61af8964a0608e4
+
+.git/objects/f4:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:02 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris 3,6K окт 12 17:02 54317856710bc60dac41180e891ec855b3a571
+
+.git/objects/f8:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris   57 окт 12 17:00 77edd3edb0da5f99caf867dc673b02a95b068e
+
+.git/objects/fc:
+итого 16K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:17 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  251 окт 12 17:03 3e2276c579846df287fed2351deb80f0fa7757
+-r--r--r--  1 boris boris   49 окт 17 12:17 89f99147ee68f13ca68267b5820ce6c36582a1
+
+.git/objects/ff:
+итого 12K
+drwxrwxr-x  2 boris boris 4,0K окт 17 12:16 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+-r--r--r--  1 boris boris  471 окт 17 12:16 07ae1488b15aeb5a05c27e40be83e299cccf9d
+
+.git/objects/info:
+итого 8,0K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+
+.git/objects/pack:
+итого 8,0K
+drwxrwxr-x  2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 78 boris boris 4,0K окт 17 12:23 ..
+
+.git/refs:
+итого 20K
+drwxrwxr-x 5 boris boris 4,0K окт 12 17:01 .
+drwxrwxr-x 8 boris boris 4,0K окт 17 12:24 ..
+drwxrwxr-x 2 boris boris 4,0K окт 17 12:23 heads
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:01 remotes
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:00 tags
+
+.git/refs/heads:
+итого 12K
+drwxrwxr-x 2 boris boris 4,0K окт 17 12:23 .
+drwxrwxr-x 5 boris boris 4,0K окт 12 17:01 ..
+-rw-rw-r-- 1 boris boris   41 окт 17 12:23 master
+
+.git/refs/remotes:
+итого 12K
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:01 .
+drwxrwxr-x 5 boris boris 4,0K окт 12 17:01 ..
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:03 origin
+
+.git/refs/remotes/origin:
+итого 12K
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:03 .
+drwxrwxr-x 3 boris boris 4,0K окт 12 17:01 ..
+-rw-rw-r-- 1 boris boris   41 окт 12 17:03 master
+
+.git/refs/tags:
+итого 8,0K
+drwxrwxr-x 2 boris boris 4,0K окт 12 17:00 .
+drwxrwxr-x 5 boris boris 4,0K окт 12 17:01 ..
