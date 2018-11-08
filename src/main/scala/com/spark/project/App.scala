@@ -18,6 +18,7 @@ import scala.math.max
   *
   * with dependency!!! mvn clean compile assembly:single
   * Указав предварительно мэйн класс
+  * при проблемах с maven - > rm -R  ~.m2/ -> reimport -> mvn clean install -X
   * <plugin>
   * <artifactId>maven-assembly-plugin</artifactId>
   *......
