@@ -4,6 +4,7 @@ package com.spark.project
 import java.io.File
 
 import scala.io.Source
+
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
 import org.apache.spark.SparkConf
@@ -16,9 +17,17 @@ import org.apache.spark.sql.SparkSession
 object ALM_Recommend_model_filmBased extends App with SparkContextClass {
 
 
+//  val spark:SparkSession = SparkSession
+//    .builder.master("local[*]")
+//    .appName("AppName").getOrCreate()
+//
 
-    Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
-    Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
+  print(org.apache.spark.SPARK_VERSION)
+
+
+
+
+
 
 //    if (args.length != 2) {
 //      println("Usage: /path/to/spark/bin/spark-submit --driver-memory 2g --class MovieLensALS " +
@@ -35,7 +44,10 @@ val sc = spark.sparkContext
 
 
   /** Load ratings from file. */
+
   def loadRatings(path: String): Seq[Rating] = {
+
+    print ("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Start Load ratings from file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     val lines = Source.fromFile(path).getLines()
     val ratings = lines.map { line =>
       val fields = line.split("::")
@@ -46,12 +58,15 @@ val sc = spark.sparkContext
     } else {
       ratings.toSeq
     }
+
+
   }
 
 
 
   /** Compute RMSE (Root Mean Squared Error). */
   def computeRmse(model: MatrixFactorizationModel, data: RDD[Rating], n: Long): Double = {
+    print ("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<computeRmse>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     val predictions: RDD[Rating] = model.predict(data.map(x => (x.user, x.product)))
     val predictionsAndRatings = predictions.map(x => ((x.user, x.product), x.rating))
       .join(data.map(x => ((x.user, x.product), x.rating)))
@@ -66,18 +81,28 @@ val sc = spark.sparkContext
     val myRatings = loadRatings("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/Recommendation/FilmsCompetition/spark-training/machine-learning/personalRatings.txt")
     val myRatingsRDD = sc.parallelize(myRatings, 1)
 
-    // load ratings and movie titles
+     //load ratings and movie titles
 
     val movieLensHomeDir = "/home/boris/Рабочий стол/SparkScalaCource/SparkScala/Recommendation/FilmsCompetition/spark-training"
 
-    val ratings = sc.textFile(new File(movieLensHomeDir, "ratings.dat").toString).map { line =>
-      val fields = line.split("::")
-      // format: (timestamp % 10, Rating(userId, movieId, rating))
-      (fields(3).toLong % 10, Rating(fields(0).toInt, fields(1).toInt, fields(2).toDouble))
-    }
+     print ("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ratings.dat>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 
+
+  val ratings = sc.textFile(new File(movieLensHomeDir, "ratings.dat").toString).map { line =>
+    val fields = line.split(",")
+    // format: (timestamp % 10, Rating(userId, movieId, rating))
+    (fields(3).toLong % 10, Rating(fields(0).toInt, fields(1).toInt, fields(2).toDouble))
+  }
+
+print(ratings.count())
+
+
+
+
+
+  print ("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<movies.dat>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
     val movies = sc.textFile(new File(movieLensHomeDir, "movies.dat").toString).map { line =>
-      val fields = line.split("::")
+      val fields = line.split(",")
       // format: (movieId, movieName)
       (fields(0).toInt, fields(1))
     }.collect().toMap
