@@ -13,7 +13,7 @@ import scala.util.Random
 
 
 
-object ALM_model_spark2 extends App with SparkContextClass {
+object ALM_Recommend_model_musicBased extends App with SparkContextClass {
 
   val base = "/home/boris/Рабочий стол/SparkScalaCource/SparkScala/Recommendation/" //"hdfs:///user/u_dl_s_k7m/trr4/"
   val rawUserArtistData = spark.read.textFile(base + "user_artist_data.txt")
