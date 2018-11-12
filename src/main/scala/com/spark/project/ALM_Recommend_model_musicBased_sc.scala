@@ -12,7 +12,6 @@ import scala.util.Random
 
 
 
-
 object ALM_Recommend_model_musicBased extends App with SparkContextClass {
 
   val base = "/home/boris/Рабочий стол/SparkScalaCource/SparkScala/Recommendation/" //"hdfs:///user/u_dl_s_k7m/trr4/"
@@ -20,6 +19,8 @@ object ALM_Recommend_model_musicBased extends App with SparkContextClass {
   val rawArtistData = spark.read.textFile(base + "artist_data.txt")
   val rawArtistAlias = spark.read.textFile(base + "artist_alias.txt")
 
+
+  // Инициализируем и запускаем кастомный объект и его функции для вызова расчета модели
   val runRecommender = new RunRecommender(spark)
   runRecommender.preparation(rawUserArtistData, rawArtistData, rawArtistAlias)
   runRecommender.model(rawUserArtistData, rawArtistData, rawArtistAlias)
@@ -39,31 +40,54 @@ class RunRecommender(private val spark: SparkSession) {
                    rawArtistData: Dataset[String],
                    rawArtistAlias: Dataset[String]): Unit = {
 
+     //Просто смотрим на данные
     rawUserArtistData.take(5).foreach(println)
 
+    //Парсим данные о выборах пользователей
     val userArtistDF = rawUserArtistData.map { line =>
       val Array(user, artist, _*) = line.split(' ')
       (user.toInt, artist.toInt)
     }.toDF("user", "artist")
 
+    //Выводим статистики по данным
     userArtistDF.agg(min("user"), max("user"), min("artist"), max("artist")).show()
 
     val artistByID = buildArtistByID(rawArtistData)
     val artistAlias = buildArtistAlias(rawArtistAlias)
 
+
+    //Почему bad/good???
     val (badID, goodID) = artistAlias.head
+
+    //Фильтруем по поданию артистов в набор случившихся айдишников
     artistByID.filter($"id" isin (badID, goodID)).show()
   }
+
+
+
+
 
   def model(
              rawUserArtistData: Dataset[String],
              rawArtistData: Dataset[String],
              rawArtistAlias: Dataset[String]): Unit = {
 
+
+
+     // Создаем распределенную копию переменную
     val bArtistAlias = spark.sparkContext.broadcast(buildArtistAlias(rawArtistAlias))
 
+
+    //кэшируем полученный финальный список
     val trainData = buildCounts(rawUserArtistData, bArtistAlias).cache()
 
+
+    // Создаем объект модели, с параметрами, где
+    // setSeed --
+    // setImplictPrefs --
+    // setRank -
+    // setRegParam --
+    //setUserCol/ setItemCol/setRatingCol
     val model = new ALS().
       setSeed(Random.nextLong()).
       setImplicitPrefs(true).
@@ -77,11 +101,17 @@ class RunRecommender(private val spark: SparkSession) {
       setPredictionCol("prediction").
       fit(trainData)
 
+
+    // освобождаем переменную
     trainData.unpersist()
 
+//
     model.userFactors.select("features").show(truncate = false)
 
+    //Для пользователя подбираем подходящую музыку
     val userID = 2093760
+
+
 
     val existingArtistIDs = trainData.
       filter($"user" === userID).
@@ -101,6 +131,10 @@ class RunRecommender(private val spark: SparkSession) {
     model.userFactors.unpersist()
     model.itemFactors.unpersist()
   }
+
+
+
+
 
   def evaluate(
                 rawUserArtistData: Dataset[String],
@@ -147,12 +181,20 @@ class RunRecommender(private val spark: SparkSession) {
     cvData.unpersist()
   }
 
+
+
+
+
+
   def recommend(
                  rawUserArtistData: Dataset[String],
                  rawArtistData: Dataset[String],
                  rawArtistAlias: Dataset[String]): Unit = {
 
     val bArtistAlias = spark.sparkContext.broadcast(buildArtistAlias(rawArtistAlias))
+
+
+
     val allData = buildCounts(rawUserArtistData, bArtistAlias).cache()
     val model = new ALS().
       setSeed(Random.nextLong()).
@@ -175,6 +217,9 @@ class RunRecommender(private val spark: SparkSession) {
     model.itemFactors.unpersist()
   }
 
+
+
+  // Очищаем файлик-маппинг артистов от лишних символов
   def buildArtistByID(rawArtistData: Dataset[String]): DataFrame = {
     rawArtistData.flatMap { line =>
       val (id, name) = line.span(_ != '\t')
@@ -190,6 +235,10 @@ class RunRecommender(private val spark: SparkSession) {
     }.toDF("id", "name")
   }
 
+
+
+
+//Парсинг данных по артистам
   def buildArtistAlias(rawArtistAlias: Dataset[String]): Map[Int,Int] = {
     rawArtistAlias.flatMap { line =>
       val Array(artist, alias) = line.split('\t')
@@ -201,6 +250,11 @@ class RunRecommender(private val spark: SparkSession) {
     }.collect().toMap
   }
 
+
+
+
+
+//формируем финальный список клиент, фильм
   def buildCounts(
                    rawUserArtistData: Dataset[String],
                    bArtistAlias: Broadcast[Map[Int,Int]]): DataFrame = {
