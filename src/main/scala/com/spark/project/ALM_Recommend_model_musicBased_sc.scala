@@ -66,7 +66,7 @@ class RunRecommender(private val spark: SparkSession) {
 
 
 
-
+// Метод создания модели
   def model(
              rawUserArtistData: Dataset[String],
              rawArtistData: Dataset[String],
@@ -78,16 +78,18 @@ class RunRecommender(private val spark: SparkSession) {
     val bArtistAlias = spark.sparkContext.broadcast(buildArtistAlias(rawArtistAlias))
 
 
-    //кэшируем полученный финальный список
+    //кэшируем полученный финальный список, которые будут датасетом
     val trainData = buildCounts(rawUserArtistData, bArtistAlias).cache()
 
 
     // Создаем объект модели, с параметрами, где
-    // setSeed --
-    // setImplictPrefs --
-    // setRank -
-    // setRegParam --
-    //setUserCol/ setItemCol/setRatingCol
+    // setSeed -- рандомный параметр сглаживания
+    // setImplictPrefs -- флаг для включения неявных предпочтений
+    // setRank - ранг матрицы факторизации, должны быть не меньше 1
+    // setRegParam -- параметр регулярезации, должны быть больше или равен 0
+    //setUserCol - колонка пользователя/  -целочисленное
+    // setItemCol - колонка товара/ - целочисленный
+    // setRatingCol - колонку рейтинга - целочисленное
     val model = new ALS().
       setSeed(Random.nextLong()).
       setImplicitPrefs(true).
@@ -105,23 +107,30 @@ class RunRecommender(private val spark: SparkSession) {
     // освобождаем переменную
     trainData.unpersist()
 
-//
+//????
     model.userFactors.select("features").show(truncate = false)
+
+
 
     //Для пользователя подбираем подходящую музыку
     val userID = 2093760
 
 
-
+// Существующие артисты с ID
     val existingArtistIDs = trainData.
       filter($"user" === userID).
       select("artist").as[Int].collect()
 
+    //  Артисты по ID
     val artistByID = buildArtistByID(rawArtistData)
 
+    //Фильтруем артистов по id, оставляем только артистов с существующим id
     artistByID.filter($"id" isin (existingArtistIDs:_*)).show()
 
+
+    //Делаем рекомендацию выводим 5 лучших записей
     val topRecommendations = makeRecommendations(model, userID, 5)
+
     topRecommendations.show()
 
     val recommendedArtistIDs = topRecommendations.select("artist").as[Int].collect()
@@ -134,7 +143,7 @@ class RunRecommender(private val spark: SparkSession) {
 
 
 
-
+// Метод оценивания получившейся модели
 
   def evaluate(
                 rawUserArtistData: Dataset[String],
@@ -142,17 +151,25 @@ class RunRecommender(private val spark: SparkSession) {
 
     val bArtistAlias = spark.sparkContext.broadcast(buildArtistAlias(rawArtistAlias))
 
+    // Создаем тренировачный и кросс-валидационные наборы
     val allData = buildCounts(rawUserArtistData, bArtistAlias)
     val Array(trainData, cvData) = allData.randomSplit(Array(0.9, 0.1))
+
+
+    //записываем в память датасеты
     trainData.cache()
     cvData.cache()
 
     val allArtistIDs = allData.select("artist").as[Int].distinct().collect()
     val bAllArtistIDs = spark.sparkContext.broadcast(allArtistIDs)
 
+
+    //вызываем построение ROC кривой
     val mostListenedAUC = areaUnderCurve(cvData, bAllArtistIDs, predictMostListened(trainData))
     println(mostListenedAUC)
 
+
+    //Запускаем генерацию коллекции для подбора оптимальных параметров модели
     val evaluations =
       for (rank     <- Seq(5,  30);
            regParam <- Seq(1.0, 0.0001);
@@ -167,6 +184,8 @@ class RunRecommender(private val spark: SparkSession) {
             setRatingCol("count").setPredictionCol("prediction").
             fit(trainData)
 
+
+          // Опять ROC кривая
           val auc = areaUnderCurve(cvData, bAllArtistIDs, model.transform)
 
           model.userFactors.unpersist()
@@ -185,7 +204,7 @@ class RunRecommender(private val spark: SparkSession) {
 
 
 
-
+// метод рекомендации для выбранного пользователя
   def recommend(
                  rawUserArtistData: Dataset[String],
                  rawArtistData: Dataset[String],
@@ -265,6 +284,8 @@ class RunRecommender(private val spark: SparkSession) {
     }.toDF("user", "artist", "count")
   }
 
+
+  // Функция делающая рекомендации
   def makeRecommendations(model: ALSModel, userID: Int, howMany: Int): DataFrame = {
     val toRecommend = model.itemFactors.
       select($"id".as("artist")).
@@ -346,6 +367,10 @@ class RunRecommender(private val spark: SparkSession) {
     meanAUC
   }
 
+
+
+
+// Функция которая
   def predictMostListened(train: DataFrame)(allData: DataFrame): DataFrame = {
     val listenCounts = train.groupBy("artist").
       agg(sum("count").as("prediction")).
