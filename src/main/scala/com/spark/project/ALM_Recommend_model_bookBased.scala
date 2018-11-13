@@ -2,6 +2,8 @@ package com.spark.project
 
 import org.apache.spark.sql.DataFrame
 
+import scala.collection.mutable
+
 
 
 class ParseObj(val SrcpathString : String) extends SparkContextClass {
@@ -38,30 +40,29 @@ object ALM_Recommend_model_bookBased extends App with SparkContextClass {
 
 
 
-  val general_path = "/home/boris/Рабочий стол/SparkScalaCource/SparkScala/Recommendation/BooksRecommendation/"
+val general_path = "/home/boris/Рабочий стол/SparkScalaCource/SparkScala/Recommendation/BooksRecommendation/"
+
+val list_of_names = Seq("BX-Book-Ratings.csv", "BX-Books.csv", "BX-Users.csv")
 
 
+// Парсим по входящему списку файликов, с целью получения Датафреймов и статистик по ним
+val dfs = mutable.ListBuffer[DataFrame]()
+for (file <- list_of_names) yield {
 
-  println("---------------------------------------------------------------------books_ratings------------------------------------------------------------------------")
-  val books_ratings = new ParseObj(general_path+"BX-Book-Ratings.csv")
-  books_ratings.show_stats_for_date()
+  val obj = new ParseObj(general_path + file)
+  obj.show_stats_for_date()
 
-  val books_rating_data = books_ratings.parsing_data_src()
-  books_rating_data.show(20, false)
+  println(s"-------------------------------------------------------------------------$file-----------------------------------------------------------------------")
+  val someDF = obj.parsing_data_src()
+  someDF.show(20, false)
 
-  println("---------------------------------------------------------------------books------------------------------------------------------------------------")
-  val books = new ParseObj(general_path+"BX-Books.csv")
-  books.show_stats_for_date()
+  dfs += someDF
+}
 
-  val books_data = books.parsing_data_src()
-  books_data.show(20, false)
+val firstDF = dfs(0)
+val secondDF = dfs(1)
+val thirdDF = dfs(2)
 
-  println("----------------------------------------------------------------------user------------------------------------------------------------------------")
-  val user = new ParseObj(general_path+"BX-Users.csv")
-  user.show_stats_for_date()
-
-  val user_data = user.parsing_data_src()
-  user_data.show(20, false)
 
 
 

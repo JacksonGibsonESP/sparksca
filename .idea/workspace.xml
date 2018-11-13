@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$apply$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator17$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator17$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator21$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator21$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,7 +101,7 @@
           <entry key="java" value="3" />
           <entry key="md" value="56" />
           <entry key="sc" value="1979" />
-          <entry key="scala" value="17857" />
+          <entry key="scala" value="18742" />
           <entry key="txt" value="166" />
           <entry key="xml" value="390" />
         </counts>
@@ -115,7 +110,7 @@
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="222" />
-          <entry key="Scala" value="19836" />
+          <entry key="Scala" value="20721" />
           <entry key="XML" value="390" />
         </counts>
       </usages-collector>
@@ -149,8 +144,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="376">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+              <folding>
+                <element signature="e#27#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -306,7 +304,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542115322228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542119236429" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -443,12 +441,12 @@
       <workItem from="1541772538482" duration="126000" />
       <workItem from="1542004333306" duration="1102000" />
       <workItem from="1542006245556" duration="8704000" />
-      <workItem from="1542103441194" duration="8354000" />
+      <workItem from="1542103441194" duration="12275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131871000" />
+    <option name="totallyTimeSpent" value="135792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -903,8 +901,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="376">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding>
+            <element signature="e#27#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
