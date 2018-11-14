@@ -38,7 +38,7 @@ import scala.math.max
 
 object WordCount extends App with SparkContextClass {
 
-
+    //WordCound RDD сортировка
   val text = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/u.data")
 
   val counts = text.map(x => x.toString().split("\t")(2))
@@ -56,7 +56,8 @@ object WordCount extends App with SparkContextClass {
 
 object AverageNumberOfFriends extends App with SparkContextClass {
 
-
+  //Считаем среднее количество по ключу
+  //RDD
 
   def parseLine(line:String) = {
 
@@ -82,9 +83,6 @@ object AverageNumberOfFriends extends App with SparkContextClass {
 
   results.sorted.foreach(println)
 
-
-
-
 }
 
 
@@ -94,24 +92,11 @@ object AverageNumberOfFriends extends App with SparkContextClass {
 
 object BaseRecepiesSpark extends App with SparkContextClass {
 
-  case class MatchDataForStatsParsing (stationId:String, dateOFMeasure:String, typeOFMonitoring:String, theQuanitityOfPercep:String)
+  //Выводим разные статистики по датасету
+  // Конвертим csv в sql.DataSet
+  // DataSet
 
-  def ParseFunc(line:String) = {
-
-    val fields = line.split(",")
-
-    val stationId = fields(0)
-    val dateOFMeasure = fields(1)
-    val typeOFMonitoring = fields(2)
-    val theQuanitityOfPercep = fields(3).toInt
-
-    (stationId, dateOFMeasure, typeOFMonitoring, theQuanitityOfPercep)
-  }
-
-
-
-    val linesData = spark.read.csv("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
-
+ val linesData = spark.read.csv("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
 
   val linesData2 = spark
     .read
@@ -120,15 +105,12 @@ object BaseRecepiesSpark extends App with SparkContextClass {
     .option("inferSchema","true") // Автоматически подбираем тип данных
     .csv("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
 
-  val linesData2AfterFilling = linesData2.na.fill("eee", Seq("_c5")) //Заполнение нулевых значений значениями
-
+val linesData2AfterFilling = linesData2.na.fill("eee", Seq("_c5")) //Заполнение нулевых значений значениями
 
 linesData2.show()
 linesData2.printSchema() // Показать данные по полям
 
-
 linesData2AfterFilling.describe().show(100)//вывести средние статистики по полям
-
 
   //Эквиваленты на SQL и DataFrame для данных из csv файла-------------------------
 linesData2AfterFilling.cache()
@@ -136,16 +118,37 @@ linesData2AfterFilling.groupBy("_c2").count().orderBy()//.show()
 
 linesData2AfterFilling.createOrReplaceTempView("Data1800")   //Переходим к работе от csv к sql
 spark.sql("""select _c2, COUNT(*) cnt from Data1800 group by _c2 order by cnt desc""")//.show(20)
-//------------------------------------------------------------------------------
-
-
-
-
-   // val parsedLines = linesData.map(ParseFunc)
 
 
 }
 
+
+object AmountSpentByCustomer extends App with SparkContextClass {
+
+  //Считаем суммы по ключу на уровне RDD
+  //После чего делаем сортировку
+
+  def extractorFromFile(line:String) = {
+
+    val fields = line.split(",")
+    (fields(0), fields(2).toFloat)
+
+  }
+
+
+  val input = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/customer-orders.csv")
+
+  val MRinput = input.map(extractorFromFile).reduceByKey((x,y) => x + y)
+
+  val AgainMapped = MRinput.map(x=> (x._1, x._2))
+
+  val SortMRInput = AgainMapped
+    .sortBy(_._2)
+    .collect()// Забавно, без вызова коллекта сортировка реально не выполняется
+
+  SortMRInput.foreach(println)
+
+}
 
 
 
@@ -153,6 +156,10 @@ object TheMostPercepetationDayForDistrict extends App with SparkContextClass {
 
   //Определить наиболее осадочный день по станциям наблюдения
   //GM000010962,18001021,PRCP,0,,,E,
+  //RDD
+  //Фильтруем по RDD
+  //Преобразуем данные по RDD
+  //Находим максимальное значение по всем полям или по определенным в разрезе RDD
 
 
   def ParseFunc(line:String) = {
@@ -199,7 +206,10 @@ object TheMostPercepetationDayForDistrict extends App with SparkContextClass {
 
 object FlatMapProffWordCountWithFilterByStopWords extends App with SparkContextClass {
 
-  //Make a list of stopWords
+  //WordCount с фильтрацией стоп-слов
+  // RDD
+  //  Фильтрация через RDD
+  //
 
   def parseStopWords(line:String) ={
 
@@ -251,6 +261,10 @@ object FlatMapProffWordCountWithFilterByStopWords extends App with SparkContextC
 
 object FilterWeatherDataMin extends App with SparkContextClass {
 
+  //RDD
+  //Фильтрация по RDD
+  //Предварительная сортировка в цикле
+
   def parseLine(line:String)= {
 
     val fields = line.split(",")
@@ -262,7 +276,6 @@ object FilterWeatherDataMin extends App with SparkContextClass {
     (stationId, entryType, temperature)
 
   }
-
 
   val lines = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
 
