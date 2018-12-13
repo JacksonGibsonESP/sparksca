@@ -59,7 +59,64 @@ object WordCount extends App with SparkContextClass {
 }
 
 
-// Рекомендательная система для фильмов
+// Поиск наиболее связанного с другим узлами узла в социальном графе
+
+object SocialGraphSearching extends App with SparkContextClass {
+
+  def countCoOccurences(line: String) = {
+    var elements = line.split("\\s+")
+    (elements(0).toInt, elements.length - 1)
+  }
+
+  def parseNames(line: String) : Option[(Int, String)] ={
+    var fields = line.split('\"')
+
+    if (fields.length > 1) {
+      return Some(fields(0).trim().toInt, fields(1))
+    } else {
+
+      return None
+
+    }
+  }
+
+
+  // Загружаем маппинг Герой - Его айдишник
+val names = spark.sparkContext.textFile(total_general_path + "/Marvel-names.txt")
+val namesRdd = names.flatMap(parseNames)
+
+
+  // Загружаем социальный граф
+  val lines = spark.sparkContext.textFile(total_general_path + "/Marvel-graph.txt")
+
+  // Конвертируем в суммы вхождений для каждого айдишника
+  val pairings = lines.map(countCoOccurences)
+
+  // Объединить записи которые охватывают более одной ????????
+
+  val totalFriendsByCharacter = pairings.reduceByKey((x,y) => x + y)
+
+
+  // Переворачиваем
+  val flipped = totalFriendsByCharacter.map(x=>(x._2, x._1))
+
+  // Находим граф с максимальным количеством связей
+  val mostPopular = flipped.max()
+
+
+  // Определяем имя для найденного айдишника
+  val mostPopularName = namesRdd.lookup(mostPopular._2)(0)
+
+  println(s"$mostPopularName is the most popular superhero with ${mostPopular._1} co-appearences.")
+
+
+
+}
+
+
+
+
+// Вывод самого просматриваемого фильма, с джоином через мапу
 
 object MostPopularMovie extends App with SparkContextClass {
 
@@ -108,6 +165,7 @@ object MostPopularMovie extends App with SparkContextClass {
 
   var nameDict = spark.sparkContext.broadcast(loadMovieName)
 
+  // Немного магии и джоин двух таблиц
   val sortedMoviesWithNames = sortedMovies.map(x => (nameDict.value(x._2), x._1))
 
   // Собираем и выводим результат
