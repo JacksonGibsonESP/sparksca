@@ -4,6 +4,9 @@ package com.spark.project
 
 
 
+import org.apache.spark.sql.DataFrame
+
+import scala.collection.mutable
 import scala.math.max
 
 
@@ -39,7 +42,7 @@ import scala.math.max
 object WordCount extends App with SparkContextClass {
 
     //WordCound RDD сортировка
-  val text = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/u.data")
+  val text = spark.sparkContext.textFile(total_general_path+"/u.data")
 
   val counts = text.map(x => x.toString().split("\t")(2))
 
@@ -49,6 +52,12 @@ object WordCount extends App with SparkContextClass {
 
   sortedResults.foreach(println)
 
+
+}
+
+
+object MostPopularMovie extends App with SparkContextClass {
+  print("Hello")
 
 }
 
@@ -70,7 +79,7 @@ object AverageNumberOfFriends extends App with SparkContextClass {
 
   }
 
-  val lines = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/fakefriends.csv")
+  val lines = spark.sparkContext.textFile(total_general_path+"/SparkScala/fakefriends.csv")
 
   val rdd = lines.map(parseLine)
 
@@ -85,7 +94,41 @@ object AverageNumberOfFriends extends App with SparkContextClass {
 
 }
 
+object SparkOptimisationHints extends App with SparkContextClass {
 
+
+
+  val general_path = total_general_path+"/SparkScala/Recommendation/BooksRecommendation/"
+
+  val list_of_names = Seq("BX-Book-Ratings.csv", "BX-Books.csv", "BX-Users.csv")
+
+
+  // Парсим по входящему списку файликов, с целью получения Датафреймов и статистик по ним
+  val dfs = mutable.ListBuffer[DataFrame]()
+  for (file <- list_of_names) yield {
+
+    val obj = new ParseObj(general_path + file)
+
+    println(s"-------------------------------------------------------------------------$file-----------------------------------------------------------------------")
+    val someDF = obj.parsing_data_src()
+    //someDF.show(20, false)
+
+    dfs += someDF
+  }
+
+  val firstDF = dfs(0)
+  val secondDF = dfs(1)
+  val thirdDF = dfs(2)
+
+
+  firstDF.createOrReplaceTempView("Table1")
+  secondDF.createOrReplaceTempView("Table2")
+  thirdDF.createOrReplaceTempView("Table3")
+
+  spark.sql("select * from Table1").show(3,false)
+
+
+}
 
 
 
@@ -96,14 +139,14 @@ object BaseRecepiesSpark extends App with SparkContextClass {
   // Конвертим csv в sql.DataSet
   // DataSet
 
- val linesData = spark.read.csv("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
+ val linesData = spark.read.csv(total_general_path+"/SparkScala/1800.csv")
 
   val linesData2 = spark
     .read
     .option("header", "false")
     .option("nullValue","?") //??????
     .option("inferSchema","true") // Автоматически подбираем тип данных
-    .csv("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
+    .csv(total_general_path+"/SparkScala/1800.csv")
 
 val linesData2AfterFilling = linesData2.na.fill("eee", Seq("_c5")) //Заполнение нулевых значений значениями
 
@@ -136,7 +179,7 @@ object AmountSpentByCustomer extends App with SparkContextClass {
   }
 
 
-  val input = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/customer-orders.csv")
+  val input = spark.sparkContext.textFile(total_general_path+"/SparkScala/customer-orders.csv")
 
   val MRinput = input.map(extractorFromFile).reduceByKey((x,y) => x + y)
 
@@ -174,7 +217,7 @@ object TheMostPercepetationDayForDistrict extends App with SparkContextClass {
     (stationId, dateOFMeasure, typeOFMonitoring, theQuanitityOfPercep)
   }
 
-  val linesData = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
+  val linesData = spark.sparkContext.textFile(total_general_path+"/SparkScala/1800.csv")
 
   val parsedLines = linesData.map(ParseFunc)
 
@@ -221,7 +264,7 @@ object FlatMapProffWordCountWithFilterByStopWords extends App with SparkContextC
   }
 
   //Convert .txt->RDD->Iterator->List
-  val inputDataForStopWords = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/StopWords.txt")
+  val inputDataForStopWords = spark.sparkContext.textFile(total_general_path+"/SparkScala/StopWords.txt")
 
   val parsedStopList = inputDataForStopWords.map(parseStopWords)
 
@@ -229,7 +272,7 @@ object FlatMapProffWordCountWithFilterByStopWords extends App with SparkContextC
 
   //The main function
 
-  val input = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/book.txt")
+  val input = spark.sparkContext.textFile(total_general_path+"/SparkScala/book.txt")
 
   val words = input.flatMap(x => x.split("\\W+")).map(x => x.toLowerCase())
 
@@ -277,7 +320,7 @@ object FilterWeatherDataMin extends App with SparkContextClass {
 
   }
 
-  val lines = spark.sparkContext.textFile("/home/boris/Рабочий стол/SparkScalaCource/SparkScala/1800.csv")
+  val lines = spark.sparkContext.textFile(total_general_path+"/SparkScala/1800.csv")
 
   val parsedLines = lines.map(parseLine)
 

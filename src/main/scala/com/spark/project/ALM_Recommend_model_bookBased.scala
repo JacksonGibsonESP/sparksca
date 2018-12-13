@@ -4,6 +4,7 @@ import org.apache.spark.sql.DataFrame
 
 import scala.collection.mutable
 
+trait parseObjTrait extends ParseObj
 
 
 class ParseObj(val SrcpathString : String) extends SparkContextClass {
@@ -40,7 +41,7 @@ object ALM_Recommend_model_bookBased extends App with SparkContextClass {
 
 
 
-val general_path = "/home/boris/Рабочий стол/SparkScalaCource/SparkScala/Recommendation/BooksRecommendation/"
+val general_path = total_general_path + "/SparkScala/Recommendation/BooksRecommendation/"
 
 val list_of_names = Seq("BX-Book-Ratings.csv", "BX-Books.csv", "BX-Users.csv")
 
@@ -62,28 +63,6 @@ for (file <- list_of_names) yield {
 val firstDF = dfs(0)
 val secondDF = dfs(1)
 val thirdDF = dfs(2)
-
-
-
-
-//  def preparation(input_src_data:String): Int, String, Int = {
-//
-//
-//      val fields = input_src_data.split(";")
-//      val User_ID = fields(0).toInt
-//      val ISBN = fields(1)
-//      val Books_rating = fields(2).toInt
-//
-//      (User_ID, ISBN, Books_rating)
-//
-//  }
-//
-//
-//  val rdd = book_ratings.map(preparation)
-
-
-
-
 
 
 

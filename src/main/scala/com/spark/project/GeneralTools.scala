@@ -5,6 +5,8 @@ import org.apache.spark.sql.SparkSession
 
 trait SparkContextClass {
 
+  val total_general_path = "/home/boris/Рабочий стол/Themes/!Spark/SparkScalaCource"
+
   Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
   Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
 
