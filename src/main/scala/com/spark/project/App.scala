@@ -4,9 +4,12 @@ package com.spark.project
 
 
 
+import java.nio.charset.CodingErrorAction
+
 import org.apache.spark.sql.DataFrame
 
 import scala.collection.mutable
+import scala.io.{Codec, Source}
 import scala.math.max
 
 
@@ -56,8 +59,62 @@ object WordCount extends App with SparkContextClass {
 }
 
 
+// Рекомендательная система для фильмов
+
 object MostPopularMovie extends App with SparkContextClass {
-  print("Hello")
+
+  def loadMovieName() : Map[Int, String] = {
+
+    implicit val codec = Codec("UTF-8")
+    codec.onMalformedInput(CodingErrorAction.REPLACE)
+    codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
+
+    //
+    var movieNames: Map[Int, String] = Map()
+
+    val lines = Source.fromFile(total_general_path + "/u.item").getLines()
+
+    for (line <- lines) {
+
+      var fields = line.split('|')
+      if (fields.length > 1) {
+        movieNames += (fields(0).toInt -> fields(1))
+      }
+
+    }
+      return movieNames
+
+    }
+
+
+
+ val lines = spark.sparkContext.textFile(total_general_path + "/u.data")
+
+  // Делаем мапу (movieID, 1) - каждой строчке с фильмом присваиваем единицу
+  val movies = lines.map(x => (x.split("\t")(1).toInt, 1))
+
+
+  // Суммируем уникальные вхождения фильмов
+
+  val moviecounts = movies.reduceByKey((x, y) => x + y)
+
+  // Переворачиваем фильм/количество в количество/фильм
+
+  val flipped = moviecounts.map(x => (x._2, x._1))
+
+// Сортируем по количествам вхождений
+
+  val sortedMovies = flipped.sortByKey()
+
+  var nameDict = spark.sparkContext.broadcast(loadMovieName)
+
+  val sortedMoviesWithNames = sortedMovies.map(x => (nameDict.value(x._2), x._1))
+
+  // Собираем и выводим результат
+
+  val results = sortedMoviesWithNames.collect()
+
+  results.foreach(println)
 
 }
 
