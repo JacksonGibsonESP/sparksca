@@ -63,6 +63,14 @@ object WordCount extends App with SparkContextClass {
 // Вывести топ-10 самых популярных
 // Вывести топ-1о наименее популярных
 
+
+object GraphBFSsearch extends App with SparkContextClass {
+  // Make kinda impl for BFS search algor in graph
+
+
+
+}
+
 object SocialGraphSearching extends App with SparkContextClass {
 
   def countCoOccurences(line: String) = {
