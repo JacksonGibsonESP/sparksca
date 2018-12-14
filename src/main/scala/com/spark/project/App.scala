@@ -60,6 +60,8 @@ object WordCount extends App with SparkContextClass {
 
 
 // Поиск наиболее связанного с другим узлами узла в социальном графе
+// Вывести топ-10 самых популярных
+// Вывести топ-1о наименее популярных
 
 object SocialGraphSearching extends App with SparkContextClass {
 
@@ -69,6 +71,9 @@ object SocialGraphSearching extends App with SparkContextClass {
   }
 
   def parseNames(line: String) : Option[(Int, String)] ={
+    // Option - Используем обертку для того чтобы обеспечить работу в случая возврата пустых значений
+    // Конструкция работает следующим образом - если возвращаемое значение не NULL то возвращаем Some, иначе None
+
     var fields = line.split('\"')
 
     if (fields.length > 1) {
@@ -101,14 +106,18 @@ val namesRdd = names.flatMap(parseNames)
   val flipped = totalFriendsByCharacter.map(x=>(x._2, x._1))
 
   // Находим граф с максимальным количеством связей
-  val mostPopular = flipped.max()
+  // Находим топ-10 самых популярных
+  // Находимо топ-10 менее популярных
 
 
-  // Определяем имя для найденного айдишника
-  val mostPopularName = namesRdd.lookup(mostPopular._2)(0)
+  val mostPopular = flipped.takeOrdered(10)(Ordering[Int].reverse.on(x=>x._1))
+  val leastPopular = flipped.takeOrdered(num = 10)(Ordering[Int].on(x=>x._1))
 
-  println(s"$mostPopularName is the most popular superhero with ${mostPopular._1} co-appearences.")
-
+ spark.sparkContext.parallelize({mostPopular.union(leastPopular)}.map(x=>(x._2, x._1)))
+      .join(namesRdd)
+      .map(x => x._2)
+      .takeOrdered(20)(Ordering[Int].on(x => x._1))
+      .foreach(println)
 
 
 }
@@ -167,6 +176,10 @@ object MostPopularMovie extends App with SparkContextClass {
 
   // Немного магии и джоин двух таблиц
   val sortedMoviesWithNames = sortedMovies.map(x => (nameDict.value(x._2), x._1))
+
+  sortedMovies // RDD [Int, Int]
+
+  nameDict // Map [Int, String]
 
   // Собираем и выводим результат
 
