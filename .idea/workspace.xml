@@ -2,80 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$MatchDataForStatsParsing$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$MatchDataForStatsParsing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Fib.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$29.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GeneralTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GeneralTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ParseObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ParseObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass$class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass$class.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$39.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$34.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -179,7 +118,7 @@
           <entry key="java" value="3" />
           <entry key="md" value="56" />
           <entry key="sc" value="1979" />
-          <entry key="scala" value="27827" />
+          <entry key="scala" value="28494" />
           <entry key="txt" value="166" />
           <entry key="xml" value="390" />
         </counts>
@@ -188,7 +127,7 @@
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="306" />
-          <entry key="Scala" value="29806" />
+          <entry key="Scala" value="30473" />
           <entry key="XML" value="390" />
         </counts>
       </usages-collector>
@@ -213,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="213" lean-forward="true" selection-start-line="213" selection-end-line="213" />
+            <state relative-caret-position="91">
+              <caret line="209" column="1" lean-forward="true" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
               <folding>
                 <element signature="e#31#72#0" expanded="true" />
               </folding>
@@ -387,7 +326,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/boris/IdeaProjects/sparksca/src/main/scala/com/spark/project/GeneralTools.scala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545049300371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545050906317" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -407,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DegreesOfSeparation">
+  <component name="RunManager" selected="Application.GraphMainBFS">
     <configuration name="DegreesOfSeparation" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spark.project.DegreesOfSeparation" />
       <module name="sparksca" />
@@ -434,8 +373,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostPopularMovie" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.MostPopularMovie" />
+    <configuration name="GraphMainBFS" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.spark.project.GraphMainBFS" />
       <module name="sparksca" />
       <extension name="coverage">
         <pattern>
@@ -474,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MostPopularMovie" />
       <item itemvalue="Application.SocialGraphSearching" />
       <item itemvalue="Application.GraphBFSsearch" />
       <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.DegreesOfSeparation" />
+      <item itemvalue="Application.GraphMainBFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphMainBFS" />
         <item itemvalue="Application.DegreesOfSeparation" />
         <item itemvalue="Application.GraphBFSsearch" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.SocialGraphSearching" />
-        <item itemvalue="Application.MostPopularMovie" />
       </list>
     </recent_temporary>
   </component>
@@ -540,12 +479,12 @@
       <workItem from="1543397948984" duration="3274000" />
       <workItem from="1543482467416" duration="1423000" />
       <workItem from="1544680499898" duration="25193000" />
-      <workItem from="1545030676699" duration="8736000" />
+      <workItem from="1545030676699" duration="10323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185184000" />
+    <option name="totallyTimeSpent" value="186771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,7 +523,7 @@
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.8036286" weight="0.41713482" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.8036286" weight="0.4162088" />
       <window_info anchor="bottom" id="Azure Activity Log" order="16" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.19637139" side_tool="true" weight="0.3047404" />
@@ -1014,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="213" lean-forward="true" selection-start-line="213" selection-end-line="213" />
+        <state relative-caret-position="91">
+          <caret line="209" column="1" lean-forward="true" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
           <folding>
             <element signature="e#31#72#0" expanded="true" />
           </folding>
