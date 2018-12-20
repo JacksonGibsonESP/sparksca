@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,10 +24,11 @@
     <session id="919759894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="50" />
+          <entry key="project.closed" value="52" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.121" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.132" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -45,7 +46,7 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="2" />
-          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="1" />
@@ -71,7 +72,7 @@
           <entry key="project.open.time.9" value="2" />
           <entry key="project.open.time.94" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="57" />
+          <entry key="project.opened" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -107,7 +108,7 @@
           <entry key="java" value="3" />
           <entry key="md" value="56" />
           <entry key="sc" value="1979" />
-          <entry key="scala" value="30627" />
+          <entry key="scala" value="31005" />
           <entry key="txt" value="166" />
           <entry key="xml" value="390" />
         </counts>
@@ -116,7 +117,7 @@
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="306" />
-          <entry key="Scala" value="32606" />
+          <entry key="Scala" value="32984" />
           <entry key="XML" value="390" />
         </counts>
       </usages-collector>
@@ -130,12 +131,12 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
               <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -153,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2339">
-              <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
+            <state relative-caret-position="188">
+              <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
               <folding>
                 <element signature="e#27#68#0" expanded="true" />
               </folding>
@@ -256,9 +257,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="width" value="1048" />
-    <option name="height" value="575" />
+    <option name="x" value="-11" />
+    <option name="width" value="1038" />
+    <option name="height" value="574" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -328,7 +329,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/boris/IdeaProjects/sparksca/src/main/scala/com/spark/project/GeneralTools.scala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545230570666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545306808619" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -482,12 +483,14 @@
       <workItem from="1543482467416" duration="1423000" />
       <workItem from="1544680499898" duration="25193000" />
       <workItem from="1545030676699" duration="13767000" />
-      <workItem from="1545222931588" duration="6739000" />
+      <workItem from="1545222931588" duration="6830000" />
+      <workItem from="1545291010724" duration="1017000" />
+      <workItem from="1545304108734" duration="2392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196954000" />
+    <option name="totallyTimeSpent" value="200454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,9 +502,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="870" extended-state="6" />
+    <frame x="-4" y="0" width="1608" height="874" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.1924067" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.1975547" />
       <window_info id="Azure Explorer" order="1" sideWeight="0.5011287" side_tool="true" weight="0.17022412" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -519,13 +523,13 @@
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3295711" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.784952" visible="true" weight="0.27808988" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.784952" visible="true" weight="0.27808988" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4503386" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.8036286" weight="0.4162088" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.8036286" weight="0.22050563" />
       <window_info anchor="bottom" id="Azure Activity Log" order="16" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.19637139" side_tool="true" weight="0.3047404" />
@@ -540,7 +544,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="7" visible="true" weight="0.04054054" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.03925354" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="CodeMR Metrics" order="9" />
       <window_info anchor="right" id="CodeMR" order="10" weight="0.32977587" />
@@ -939,12 +943,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -965,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2339">
-          <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
+        <state relative-caret-position="188">
+          <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
           <folding>
             <element signature="e#27#68#0" expanded="true" />
           </folding>

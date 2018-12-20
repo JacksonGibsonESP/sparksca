@@ -2,6 +2,8 @@ package com.spark.project
 
 import java.nio.charset.CodingErrorAction
 
+import org.apache.spark.HashPartitioner
+
 import scala.io.{Codec, Source}
 import scala.math._
 
@@ -115,8 +117,16 @@ object MovieSimilarities extends SparkContextClass with App{
     // Фильтруем ненужные пары
     val uniqueJoinedRatings = joinedRatings.filter(filterDuplicates)
 
-    // ????
-    val moviePairs = uniqueJoinedRatings.map(makePairs)
+    // Используем партицирование
+    // Его рекомендовано использовать перед большими операциями:
+    // Join(), cogroup(), groupWith(), leftOuterJoin(), rightOuterJoin(),
+    // groupByKey(), reduceByKey(), combineByKey(), lookup()
+    // число партиций - минимум ровно числу исполнителей на кластере
+    // 100 -базовое число для начала
+   //
+
+
+    val moviePairs = uniqueJoinedRatings.map(makePairs).partitionBy(new HashPartitioner(100))
 
     // ????????
     val moviePairRatings = moviePairs.groupByKey()
