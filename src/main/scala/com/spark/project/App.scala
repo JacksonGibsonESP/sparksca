@@ -1,11 +1,8 @@
 package com.spark.project
 
-
-
-
-
 import java.nio.charset.CodingErrorAction
 
+import breeze.linalg.max
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.DataFrame
@@ -14,10 +11,16 @@ import org.apache.spark.util.LongAccumulator
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
 import scala.io.{Codec, Source}
-import scala.math.max
 
-
-
+// Посмотреть локально запущенный спарк в веб ui http://127.0.0.1:4040/stages/
+// stage - отображает шаг, где спарк требует шафла для данных!!!!
+// Шафла можно избежать увеличивая количество партиций
+// Если задача падает по таймауту, то возможные причины
+// В общем это значит что от исполнителя
+// требуется слишком много, чем есть
+//1. Решение - нужно больше машин
+//2. Решение - каждый исполнитель требует больше памяти
+//3. Решение - использовать партиционирование, чтобы разгладить использование памяти исполнителями
 
 /**
  * Hello world!
