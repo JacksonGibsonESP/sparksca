@@ -2,12 +2,13 @@ package com.spark.project
 
 import java.nio.charset.CodingErrorAction
 
+import com.spark.project.MovieSimilarities.total_general_path
 import org.apache.spark.HashPartitioner
 
 import scala.io.{Codec, Source}
 import scala.math._
 
-object MovieSimilarities extends SparkContextClass with App{
+class UploadDataForSimilarities {
 
   /** Load up a Map of movie IDs to movie names. */
   def loadMovieNames() : Map[Int, String] = {
@@ -32,6 +33,12 @@ object MovieSimilarities extends SparkContextClass with App{
 
     return movieNames
   }
+
+}
+
+object MovieSimilarities extends SparkContextClass with App{
+
+ val upObj = new UploadDataForSimilarities()
 
 
   // Создаем новые типы данных
@@ -102,7 +109,7 @@ object MovieSimilarities extends SparkContextClass with App{
 
 
     println("\nLoading movie names...")
-    val nameDict = loadMovieNames()
+    val nameDict = upObj.loadMovieNames()
 
     val data = spark.sparkContext.textFile(total_general_path + "/u.data")
 
