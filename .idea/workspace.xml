@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/GeneralTools.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GeneralTools.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,7 +107,7 @@
           <entry key="java" value="3" />
           <entry key="md" value="56" />
           <entry key="sc" value="1979" />
-          <entry key="scala" value="32924" />
+          <entry key="scala" value="33307" />
           <entry key="txt" value="166" />
           <entry key="xml" value="390" />
         </counts>
@@ -117,7 +116,7 @@
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="306" />
-          <entry key="Scala" value="34903" />
+          <entry key="Scala" value="35286" />
           <entry key="XML" value="390" />
         </counts>
       </usages-collector>
@@ -142,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1072">
-              <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+            <state relative-caret-position="148">
+              <caret line="77" column="2" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
               <folding>
                 <element signature="e#27#68#0" expanded="true" />
               </folding>
@@ -218,8 +217,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ScalaOracleQueries.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GeneralTools.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" />
       </list>
     </option>
   </component>
@@ -330,7 +329,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/boris/IdeaProjects/sparksca/src/main/scala/com/spark/project/GeneralTools.scala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545373527412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545376341024" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -350,22 +349,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkSQLExample">
+  <component name="RunManager" selected="Application.SparkDSExample">
     <configuration name="ALM_FrankExample" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spark.project.ALM_FrankExample" />
-      <module name="sparksca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spark.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DegreesOfSeparation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.DegreesOfSeparation" />
       <module name="sparksca" />
       <extension name="coverage">
         <pattern>
@@ -403,6 +389,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SparkDSExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.spark.project.SparkDSExample" />
+      <module name="sparksca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spark.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SparkSQLExample" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spark.project.SparkSQLExample" />
       <module name="sparksca" />
@@ -417,19 +416,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DegreesOfSeparation" />
       <item itemvalue="Application.GraphMainBFS" />
       <item itemvalue="Application.ALM_FrankExample" />
       <item itemvalue="Application.MovieSimilarities" />
       <item itemvalue="Application.SparkSQLExample" />
+      <item itemvalue="Application.SparkDSExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkDSExample" />
         <item itemvalue="Application.SparkSQLExample" />
         <item itemvalue="Application.MovieSimilarities" />
         <item itemvalue="Application.ALM_FrankExample" />
         <item itemvalue="Application.GraphMainBFS" />
-        <item itemvalue="Application.DegreesOfSeparation" />
       </list>
     </recent_temporary>
   </component>
@@ -486,12 +485,12 @@
       <workItem from="1545030676699" duration="13767000" />
       <workItem from="1545222931588" duration="6830000" />
       <workItem from="1545291010724" duration="1017000" />
-      <workItem from="1545304108734" duration="7690000" />
+      <workItem from="1545304108734" duration="8783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205752000" />
+    <option name="totallyTimeSpent" value="206845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,13 +523,13 @@
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3295711" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.784952" visible="true" weight="0.19382022" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.784952" weight="0.19382022" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4503386" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.8036286" weight="0.22050563" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="15" sideWeight="0.8036286" visible="true" weight="0.22050563" />
       <window_info anchor="bottom" id="Azure Activity Log" order="16" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.19637139" side_tool="true" weight="0.3047404" />
@@ -970,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1072">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+        <state relative-caret-position="148">
+          <caret line="77" column="2" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
           <folding>
             <element signature="e#27#68#0" expanded="true" />
           </folding>

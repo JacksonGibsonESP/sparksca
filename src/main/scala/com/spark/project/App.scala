@@ -51,6 +51,52 @@ import scala.io.{Codec, Source}
   * </plugin>
 **/
 
+object SparkDSExample extends App with SparkContextClass {
+
+
+  // С помощью конструкции создаем класс - таблицу, которую позже обогащяем данными
+  case class Person(ID:Int, name: String,age: Int, numFriends:Int)
+
+
+  def mapper(line:String):Person ={
+
+    val fields = line.split(',')
+
+    val person:Person = Person(fields(0).toInt, fields(1), fields(2).toInt, fields(3).toInt)
+
+    return person
+
+  }
+
+
+  // Конвертируем наш файлик в DataSet используем наш кастомный DataSet - person
+  // После чего можем с табличкой работать как с объектом
+  import spark.implicits._
+  val lines = spark.sparkContext.textFile(total_general_path + "/SparkScala/fakefriends.csv")
+  val people = lines.map(mapper).toDS().cache()
+
+
+  people.printSchema()
+
+  people.select("name").show()
+
+  people.filter(people("age") < 21).show()
+
+  people.groupBy("age").count().show()
+
+  people.select(people("name"), people("age") + 10).show()
+
+  spark.stop()
+
+
+
+
+
+}
+
+
+
+
 
 object SparkSQLExample extends App with SparkContextClass {
 
