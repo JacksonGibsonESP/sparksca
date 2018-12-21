@@ -12,7 +12,8 @@ trait SparkContextClass {
 
   val spark:SparkSession = SparkSession
     .builder.master("local[*]")
-    .appName("AppName").getOrCreate()
+    .appName("AppName")
+    .getOrCreate() // Параметр создает новую сессию или использует уже существующую
 
   spark//.sparkContext//.conf.set("spark.driver.memory", "6g")
 

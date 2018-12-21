@@ -5,7 +5,7 @@ import java.nio.charset.CodingErrorAction
 import breeze.linalg.max
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.{DataFrame, Dataset}
 import org.apache.spark.util.LongAccumulator
 
 import scala.collection.mutable
@@ -21,6 +21,11 @@ import scala.io.{Codec, Source}
 //1. Решение - нужно больше машин
 //2. Решение - каждый исполнитель требует больше памяти
 //3. Решение - использовать партиционирование, чтобы разгладить использование памяти исполнителями
+// ---------------------------------------------------------------------------------------------
+// Синтаксис UDF
+// import org.apache.spark.sql.functions.udf
+// val square = (x=>x*x)
+//squaredDF = df.withColumn("square", square('value'))
 
 /**
  * Hello world!
@@ -45,6 +50,52 @@ import scala.io.{Codec, Source}
   * </configuration>
   * </plugin>
 **/
+
+
+object SparkSQLExample extends App with SparkContextClass {
+
+
+  // С помощью конструкции создаем класс - таблицу, которую позже обогащяем данными
+  case class Person(ID:Int, name: String,age: Int, numFriends:Int)
+
+
+  def mapper(line:String):Person ={
+
+    val fields = line.split(',')
+
+    val person:Person = Person(fields(0).toInt, fields(1), fields(2).toInt, fields(3).toInt)
+
+    return person
+
+  }
+
+  val lines = spark.sparkContext.textFile(total_general_path + "/SparkScala/fakefriends.csv")
+  val people = lines.map(mapper)
+
+
+  // kinda magic
+  // констукция позволяет произвести неявное преобразование между коллекциями
+  // Таким образом создаем свой типизированный DataSet с кастомным типом Person
+  import spark.implicits._
+  val schemaPeople: Dataset[Person] = people.toDS
+
+  schemaPeople.printSchema()
+  schemaPeople.createOrReplaceTempView("people")
+
+
+
+  val teenagers: DataFrame = spark.sql("SELECT * FROM people WHERE age > 13 AND age <=19")
+
+  val results = teenagers.collect()
+
+  results.foreach(println)
+
+  // Останавливаем сессию
+  spark.stop()
+
+  schemaPeople
+
+}
 
 
 
