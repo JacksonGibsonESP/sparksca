@@ -4,6 +4,8 @@ import org.apache.spark.mllib.recommendation.{ALS, Rating}
 
 object ALM_FrankDataSet extends App with SparkContextClass {
 
+  // Алгоритм плохо работает на малых данных (100k) и не с теми параметрами!!!
+
 
   // Наследуем уже реализованную функцию парсинга
   val upObj = new UploadDataForSimilarities
