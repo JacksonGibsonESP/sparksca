@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataS_frank.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankDataSet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankDataSetModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkMLLIBDataTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkMLLIBDataTypes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,7 +88,7 @@
           <entry key="md" value="1" />
           <entry key="myObj$" value="1" />
           <entry key="sc" value="2" />
-          <entry key="scala" value="38" />
+          <entry key="scala" value="40" />
           <entry key="uml" value="1" />
           <entry key="xml" value="4" />
         </counts>
@@ -109,7 +99,7 @@
           <entry key="JAVA" value="3" />
           <entry key="Manifest" value="3" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Scala" value="40" />
+          <entry key="Scala" value="42" />
           <entry key="UML" value="6" />
           <entry key="XML" value="4" />
         </counts>
@@ -120,7 +110,7 @@
           <entry key="java" value="3" />
           <entry key="md" value="56" />
           <entry key="sc" value="1979" />
-          <entry key="scala" value="35206" />
+          <entry key="scala" value="36028" />
           <entry key="txt" value="166" />
           <entry key="xml" value="390" />
         </counts>
@@ -129,7 +119,7 @@
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="306" />
-          <entry key="Scala" value="37185" />
+          <entry key="Scala" value="38007" />
           <entry key="XML" value="390" />
         </counts>
       </usages-collector>
@@ -141,11 +131,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="-251">
               <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataS_frank.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+              <folding>
+                <element signature="e#27#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankDataSetModel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/Regression.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataS_frank.scala" />
       </list>
     </option>
   </component>
@@ -314,7 +317,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/boris/IdeaProjects/sparksca/src/main/scala/com/spark/project/GeneralTools.scala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545745369106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545747983725" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -334,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Regression_Frank">
+  <component name="RunManager" selected="Application.RegressionDataS_frank">
     <configuration name="ALM_FrankDataSet" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spark.project.ALM_FrankDataSet" />
       <module name="sparksca" />
@@ -374,6 +377,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegressionDataS_frank" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.spark.project.RegressionDataS_frank" />
+      <module name="sparksca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spark.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Regression_Frank" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.spark.project.Regression_Frank" />
       <module name="sparksca" />
@@ -387,33 +403,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkDSExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.SparkDSExample" />
-      <module name="sparksca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spark.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MovieSimilarities" />
-      <item itemvalue="Application.SparkDSExample" />
       <item itemvalue="Application.ALM_FrankDataSet" />
       <item itemvalue="Application.Regression" />
       <item itemvalue="Application.Regression_Frank" />
+      <item itemvalue="Application.RegressionDataS_frank" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegressionDataS_frank" />
         <item itemvalue="Application.Regression_Frank" />
         <item itemvalue="Application.Regression" />
         <item itemvalue="Application.ALM_FrankDataSet" />
         <item itemvalue="Application.MovieSimilarities" />
-        <item itemvalue="Application.SparkDSExample" />
       </list>
     </recent_temporary>
   </component>
@@ -471,12 +474,12 @@
       <workItem from="1545222931588" duration="6830000" />
       <workItem from="1545291010724" duration="1017000" />
       <workItem from="1545304108734" duration="14592000" />
-      <workItem from="1545634346210" duration="7291000" />
+      <workItem from="1545634346210" duration="9506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219945000" />
+    <option name="totallyTimeSpent" value="222160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +494,7 @@
     <frame x="0" y="0" width="1600" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.14092664" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.23745173" />
       <window_info id="Azure Explorer" order="1" sideWeight="0.5011287" side_tool="true" weight="0.17022412" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -988,10 +991,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataSet_Frank/scala.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
           <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataS_frank.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+          <folding>
+            <element signature="e#27#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
