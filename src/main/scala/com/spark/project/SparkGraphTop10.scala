@@ -3,14 +3,14 @@ package com.spark.project
 import org.apache.spark.graphx._
 
 
-object SparkGraph extends App with SparkContextClass {
+object SparkGraphTop10 extends App with SparkContextClass {
 
   def parseNames(line:String) : Option[(VertexId, String)] ={
 
     var fields = line.split('\"')
     if (fields.length > 1) {
       val heroID:Long = fields(0).trim().toLong
-      if (heroID < 6487) {///????
+      if (heroID < 6487) {//просто условие для экономии работы алгоритма
         return Some(fields(0).trim().toLong, fields(1))
       }
     }
@@ -49,6 +49,8 @@ def makeEdges(line: String) : List[Edge[Int]] = {
 
   val default = "Nobody"
   val graph = Graph(verts, edges, default).cache()
+
+
 
   println("\nTop 10 most-connected superheroes")
 
