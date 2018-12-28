@@ -41,6 +41,11 @@ object SparkGraphGeneral extends App with SparkContextClass {
   println(graph.numEdges)
 
 
+  println("")
+  println(graph.edges(2))
+
+
+
 }
 
 
