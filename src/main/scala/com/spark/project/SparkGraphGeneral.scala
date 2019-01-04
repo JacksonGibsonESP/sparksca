@@ -42,7 +42,7 @@ object SparkGraphGeneral extends App with SparkContextClass {
 
 
   println("")
-  println(graph.edges(2))
+  //println(graph.edges(2))
 
 
 

@@ -1,0 +1,23 @@
+// При локальной разработки
+
+git add .
+git commit -m "add some commit"
+git push
+
+// force pull
+
+I think this is the right way:
+
+git fetch --all
+
+Then, you have two options:
+
+git reset --hard origin/master
+
+OR If you are on some other branch:
+
+git reset --hard origin/<branch_name>
+
+
+// При командной разработке
+
