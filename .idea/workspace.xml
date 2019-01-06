@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes.1675089401.timestamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sparksca-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +63,7 @@
           <entry key="project.open.time.65" value="2" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.68" value="1" />
-          <entry key="project.open.time.69" value="2" />
+          <entry key="project.open.time.69" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.71" value="2" />
@@ -80,7 +77,7 @@
           <entry key="project.open.time.9" value="2" />
           <entry key="project.open.time.94" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="64" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -96,7 +93,7 @@
           <entry key="md" value="1" />
           <entry key="myObj$" value="1" />
           <entry key="sc" value="2" />
-          <entry key="scala" value="49" />
+          <entry key="scala" value="50" />
           <entry key="uml" value="1" />
           <entry key="xml" value="5" />
         </counts>
@@ -107,7 +104,7 @@
           <entry key="JAVA" value="3" />
           <entry key="Manifest" value="3" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Scala" value="51" />
+          <entry key="Scala" value="52" />
           <entry key="UML" value="6" />
           <entry key="XML" value="5" />
         </counts>
@@ -119,7 +116,7 @@
           <entry key="java" value="3" />
           <entry key="md" value="56" />
           <entry key="sc" value="1979" />
-          <entry key="scala" value="38704" />
+          <entry key="scala" value="39737" />
           <entry key="txt" value="166" />
           <entry key="xml" value="399" />
         </counts>
@@ -128,7 +125,7 @@
         <counts>
           <entry key="JAVA" value="3" />
           <entry key="PLAIN_TEXT" value="483" />
-          <entry key="Scala" value="40683" />
+          <entry key="Scala" value="41716" />
           <entry key="XML" value="399" />
         </counts>
       </usages-collector>
@@ -143,17 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1316">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/USEFUL_LINKS">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="65" selection-start-line="8" selection-end-line="8" selection-end-column="65" />
+            <state relative-caret-position="327">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -161,7 +149,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="3584">
               <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
             </state>
           </provider>
@@ -171,8 +159,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="2794">
+              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
               <folding>
                 <element signature="e#27#71#0" expanded="true" />
               </folding>
@@ -216,6 +204,7 @@
       <find>Create</find>
       <find>DegreesOfSeparation</find>
       <find>main</find>
+      <find>TabCol1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -351,6 +340,11 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -366,7 +360,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/boris/IdeaProjects/sparksca/src/main/scala/com/spark/project/GeneralTools.scala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546620075148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546800810916" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -527,12 +521,13 @@
       <workItem from="1546447608194" duration="3441000" />
       <workItem from="1546451934079" duration="55000" />
       <workItem from="1546611573163" duration="739000" />
-      <workItem from="1546612754215" duration="5879000" />
+      <workItem from="1546612754215" duration="8931000" />
+      <workItem from="1546790829496" duration="4629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246804000" />
+    <option name="totallyTimeSpent" value="254485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +542,7 @@
     <frame x="0" y="0" width="1600" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.20205921" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.2046332" />
       <window_info id="Azure Explorer" order="1" sideWeight="0.5011287" side_tool="true" weight="0.17022412" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
@@ -565,7 +560,7 @@
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3295711" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.784952" visible="true" weight="0.4016854" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.784952" visible="true" weight="0.43398875" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4494382" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -1028,21 +1023,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1227">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/Test10.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3406">
           <caret line="171" column="26" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="26" />
-          <folding>
-            <element signature="e#27#68#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3584">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -1053,32 +1060,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="327">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="2794">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
           <folding>
             <element signature="e#27#71#0" expanded="true" />
           </folding>
