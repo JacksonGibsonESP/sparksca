@@ -109,7 +109,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="GitCheetSheat" value="3662" />
+          <entry key="GitCheetSheat" value="3910" />
           <entry key="USEFUL_LINKS" value="99" />
           <entry key="java" value="3" />
           <entry key="md" value="56" />
@@ -122,7 +122,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3" />
-          <entry key="PLAIN_TEXT" value="3983" />
+          <entry key="PLAIN_TEXT" value="4231" />
           <entry key="Scala" value="41716" />
           <entry key="XML" value="399" />
         </counts>
@@ -170,7 +170,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
-              <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+              <caret line="256" column="7" lean-forward="true" selection-start-line="256" selection-start-column="7" selection-end-line="256" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -522,12 +522,12 @@
       <workItem from="1546612754215" duration="8931000" />
       <workItem from="1546790829496" duration="4773000" />
       <workItem from="1547107228988" duration="2549000" />
-      <workItem from="1547190876664" duration="10738000" />
+      <workItem from="1547190876664" duration="13564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267916000" />
+    <option name="totallyTimeSpent" value="270742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1073,7 +1073,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+          <caret line="256" column="7" lean-forward="true" selection-start-line="256" selection-start-column="7" selection-end-line="256" selection-end-column="7" />
         </state>
       </provider>
     </entry>

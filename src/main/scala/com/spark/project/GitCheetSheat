@@ -240,7 +240,35 @@ git merge origin/FinalTest
 
 После чего открывается пулл реквест который можно решить через GUI или из терминала
 
-4.5.3. Решаем из терминала
+4.5.3. При возникновении конфликта
+
+4.5.3.1 Переключаемся в remote мастер
+
+git checkout origin/master
+
+4.5.3.2 Делаем внось мердж удаленного рабочего бранча и удаленного мастера
+
+git merge origin/finalOutside
+
+4.5.3.3 Правим конфликты внутри файлика
+
+gedit ChatBotForMonitoringVault.py
+
+4.5.3.4 Добавляем исправленный файл на коммит
+
+git add ChatBotForMonitoringVault.py
+
+4.5.3.5 Объявляем коммит
+
+git commit -m "resolved conflict between remote branches"
+
+4.5.3.6 Пушим в мастер
+
+git push origin HEAD:master
+
+
+
+4.5.. Решаем из терминала
 
 git push origin HEAD:master
 
