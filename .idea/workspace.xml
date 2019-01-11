@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,9 +24,10 @@
     <session id="919759894">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="57" />
+          <entry key="project.closed" value="59" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.106" value="1" />
+          <entry key="project.open.time.119" value="1" />
           <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.132" value="1" />
@@ -69,6 +67,7 @@
           <entry key="project.open.time.71" value="2" />
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.73" value="2" />
+          <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.8" value="5" />
@@ -77,7 +76,7 @@
           <entry key="project.open.time.9" value="2" />
           <entry key="project.open.time.94" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="65" />
+          <entry key="project.opened" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,7 +110,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="GitCheetSheat" value="162" />
+          <entry key="GitCheetSheat" value="2721" />
           <entry key="USEFUL_LINKS" value="99" />
           <entry key="java" value="3" />
           <entry key="md" value="56" />
@@ -124,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3" />
-          <entry key="PLAIN_TEXT" value="483" />
+          <entry key="PLAIN_TEXT" value="3042" />
           <entry key="Scala" value="41716" />
           <entry key="XML" value="399" />
         </counts>
@@ -140,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="1316">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
@@ -156,11 +155,11 @@
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2794">
-              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+            <state relative-caret-position="560">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="e#27#71#0" expanded="true" />
               </folding>
@@ -168,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="356">
+              <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -237,10 +236,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkStreamingFrankExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraph.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/USEFUL_LINKS" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" />
       </list>
     </option>
   </component>
@@ -283,9 +282,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="328" />
-    <option name="width" value="1236" />
-    <option name="height" value="797" />
+    <option name="x" value="332" />
+    <option name="width" value="1226" />
+    <option name="height" value="796" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -307,6 +306,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,8 +350,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +359,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/boris/IdeaProjects/sparksca/src/main/scala/com/spark/project/GeneralTools.scala" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546800810916" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547189703639" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -522,12 +521,14 @@
       <workItem from="1546451934079" duration="55000" />
       <workItem from="1546611573163" duration="739000" />
       <workItem from="1546612754215" duration="8931000" />
-      <workItem from="1546790829496" duration="4629000" />
+      <workItem from="1546790829496" duration="4773000" />
+      <workItem from="1547107228988" duration="2549000" />
+      <workItem from="1547190876664" duration="7405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254485000" />
+    <option name="totallyTimeSpent" value="264583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -542,9 +543,9 @@
     <frame x="0" y="0" width="1600" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.2046332" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954792" visible="true" weight="0.20978121" />
       <window_info id="Azure Explorer" order="1" sideWeight="0.5011287" side_tool="true" weight="0.17022412" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="2" sideWeight="0.5045208" side_tool="true" visible="true" weight="0.20978121" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
@@ -560,13 +561,13 @@
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3295711" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.784952" visible="true" weight="0.43398875" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.784952" weight="0.43398875" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4494382" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.8030888" weight="0.2247191" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="15" sideWeight="0.8030888" visible="true" weight="0.22331461" />
       <window_info anchor="bottom" id="Azure Activity Log" order="16" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
       <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.1969112" side_tool="true" weight="0.25" />
@@ -581,7 +582,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.14543115" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.14414415" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="CodeMR" order="9" weight="0.0" />
       <window_info anchor="right" id="CodeMR Metrics" order="10" weight="0.043758042" />
@@ -1038,21 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3584">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/USEFUL_LINKS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1062,18 +1048,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="1316">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3584">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2794">
-          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        <state relative-caret-position="560">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="e#27#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="183" column="8" lean-forward="true" selection-start-line="183" selection-start-column="8" selection-end-line="183" selection-end-column="8" />
         </state>
       </provider>
     </entry>
