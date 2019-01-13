@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" afterDir="false" />
+    <list default="true" id="5cce871e-6a35-44cf-b73c-e912be7e1113" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" />
+      <change beforePath="$PROJECT_DIR$/Установка_проекта" afterPath="$PROJECT_DIR$/Установка_проекта" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,48 +135,46 @@
       </usages-collector>
     </session>
   </component>
-  <component name="FileColors">
-    <fileColor scope="Local Unit Tests" color="bbff7e" />
-    <fileColor scope="Android Instrumented Tests" color="bbff7e" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1316">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3584">
-              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
+      <file leaf-file-name="App.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="425">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
-                <element signature="e#27#71#0" expanded="true" />
+                <element signature="e#27#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
+      <file leaf-file-name="Установка_проекта" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Установка_проекта">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="256" column="7" lean-forward="true" selection-start-line="256" selection-start-column="7" selection-end-line="256" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphForSQLCreation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -180,8 +184,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Worksheet" />
-        <option value="Scala Object" />
+        <option value="Scala Script" />
       </list>
     </option>
   </component>
@@ -208,37 +211,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GeneralClass.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_model_spark.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_model_spark2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_musicBased.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_filmBased.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_musicBased_sc.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ScalaOracleQueries.scala.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ScalaOracleQueries.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GeneralTools.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankDataSet.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkMLLIBDataTypes" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkMLLIBDataTypes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankDataSetModel.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/Regression.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataS_frank.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkStreamingFrank.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkStreamingFrankExample.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraph.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/USEFUL_LINKS" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat" />
+        <option value="$PROJECT_DIR$/Установка_проекта" />
       </list>
     </option>
   </component>
@@ -249,12 +233,6 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="pluginUpdatePolicy" value="UPDATE" />
-        <option name="workOffline" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -277,13 +255,10 @@
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="332" />
-    <option name="width" value="1226" />
-    <option name="height" value="796" />
+    <option name="x" value="328" />
+    <option name="width" value="1236" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -301,70 +276,69 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
+              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prok" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
+              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
+              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
+              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
+              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prok" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/boris/IdeaProjects/sparksca/src/main/scala/com/spark/project/GeneralTools.scala" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547189703639" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="settings.editor.selected.configurable" value="com.sburlyaev.cmd.plugin.PluginSettings" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/jre1.8.0_192" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.31724137" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -378,151 +352,117 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloJGraphT">
-    <configuration name="HelloJGraphT" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.HelloJGraphT" />
-      <module name="sparksca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spark.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
-    <configuration name="SparkGraph" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.SparkGraph" />
-      <module name="sparksca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spark.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
-    <configuration name="SparkGraphGeneral" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.SparkGraphGeneral" />
-      <module name="sparksca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spark.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
-    <configuration name="SparkStreamingFrank" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.SparkStreamingFrank" />
-      <module name="sparksca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spark.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="Test11" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.spark.project.Test11" />
-      <module name="sparksca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spark.project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Application.SparkStreamingFrank" />
-      <item itemvalue="Application.SparkGraph" />
-      <item itemvalue="Application.Test11" />
-      <item itemvalue="Application.SparkGraphGeneral" />
-      <item itemvalue="Application.HelloJGraphT" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.HelloJGraphT" />
-        <item itemvalue="Application.SparkGraphGeneral" />
-        <item itemvalue="Application.Test11" />
-        <item itemvalue="Application.SparkGraph" />
-        <item itemvalue="Application.SparkStreamingFrank" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="xml" value="XML" />
+      </map>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2465253e-94ab-4dcb-8e63-de34b407e952" name="Default Changelist" comment="" />
-      <created>1538988693926</created>
+      <changelist id="5cce871e-6a35-44cf-b73c-e912be7e1113" name="Default" comment="" />
+      <created>1547355189161</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538988693926</updated>
-      <workItem from="1539762453954" duration="2096000" />
-      <workItem from="1539764728139" duration="2640000" />
-      <workItem from="1539767570130" duration="3637000" />
-      <workItem from="1539784738703" duration="95000" />
-      <workItem from="1539947944847" duration="309000" />
-      <workItem from="1539948398103" duration="115000" />
-      <workItem from="1539957209946" duration="152000" />
-      <workItem from="1540191097762" duration="1390000" />
-      <workItem from="1540289540139" duration="1297000" />
-      <workItem from="1540476082119" duration="1788000" />
-      <workItem from="1540478875175" duration="3701000" />
-      <workItem from="1540483541524" duration="7899000" />
-      <workItem from="1540547990646" duration="12133000" />
-      <workItem from="1540796854719" duration="7346000" />
-      <workItem from="1540804534975" duration="1490000" />
-      <workItem from="1540808035904" duration="23665000" />
-      <workItem from="1541056164167" duration="1418000" />
-      <workItem from="1541162946936" duration="757000" />
-      <workItem from="1541483707003" duration="1988000" />
-      <workItem from="1541572298539" duration="3388000" />
-      <workItem from="1541595614202" duration="721000" />
-      <workItem from="1541596448257" duration="7205000" />
-      <workItem from="1541660742094" duration="3586000" />
-      <workItem from="1541664402669" duration="10349000" />
-      <workItem from="1541746730004" duration="322000" />
-      <workItem from="1541752698646" duration="11650000" />
-      <workItem from="1541769321181" duration="2448000" />
-      <workItem from="1541772538482" duration="126000" />
-      <workItem from="1542004333306" duration="1102000" />
-      <workItem from="1542006245556" duration="8704000" />
-      <workItem from="1542103441194" duration="12663000" />
-      <workItem from="1542173214518" duration="6988000" />
-      <workItem from="1542207081113" duration="671000" />
-      <workItem from="1543326355994" duration="2719000" />
-      <workItem from="1543397948984" duration="3274000" />
-      <workItem from="1543482467416" duration="1423000" />
-      <workItem from="1544680499898" duration="25193000" />
-      <workItem from="1545030676699" duration="13767000" />
-      <workItem from="1545222931588" duration="6830000" />
-      <workItem from="1545291010724" duration="1017000" />
-      <workItem from="1545304108734" duration="14592000" />
-      <workItem from="1545634346210" duration="24036000" />
-      <workItem from="1546447608194" duration="3441000" />
-      <workItem from="1546451934079" duration="55000" />
-      <workItem from="1546611573163" duration="739000" />
-      <workItem from="1546612754215" duration="8931000" />
-      <workItem from="1546790829496" duration="4773000" />
-      <workItem from="1547107228988" duration="2549000" />
-      <workItem from="1547190876664" duration="13564000" />
+      <updated>1547355189161</updated>
     </task>
     <servers />
   </component>
@@ -539,102 +479,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="870" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954792" visible="true" weight="0.20978121" />
-      <window_info id="Azure Explorer" order="1" sideWeight="0.5011287" side_tool="true" weight="0.17022412" />
-      <window_info id="Structure" order="2" sideWeight="0.5045208" side_tool="true" visible="true" weight="0.20978121" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Learn" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="SQL" order="0" weight="0.3295711" />
-      <window_info anchor="bottom" id="Stack Trace To UML" order="1" />
-      <window_info anchor="bottom" id="CheckStyle" order="2" weight="0.3295711" />
-      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="3" />
-      <window_info anchor="bottom" id="Java2SQL" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3295711" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.784952" weight="0.43398875" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4494382" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.3295711" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="15" sideWeight="0.8030888" visible="true" weight="0.22331461" />
-      <window_info anchor="bottom" id="Azure Activity Log" order="16" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
-      <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
-      <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.1969112" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="19" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="21" sideWeight="0.88153684" weight="0.3295711" />
-      <window_info anchor="bottom" id="Messages" order="22" sideWeight="0.4967983" weight="0.35814607" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.14414415" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="CodeMR" order="9" weight="0.0" />
-      <window_info anchor="right" id="CodeMR Metrics" order="10" weight="0.043758042" />
-      <window_info anchor="right" id="CDI" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="12" weight="0.16280566" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.16988418" />
-      <window_info id="Azure Explorer" order="1" sideWeight="0.5011287" side_tool="true" weight="0.17022412" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Learn" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="SQL" order="0" weight="0.3295711" />
-      <window_info anchor="bottom" id="Stack Trace To UML" order="1" />
-      <window_info anchor="bottom" id="CheckStyle" order="2" weight="0.3295711" />
-      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="3" />
-      <window_info anchor="bottom" id="Java2SQL" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3295711" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.784952" weight="0.2991573" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4503386" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.3295711" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.8030888" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Azure Activity Log" order="16" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
-      <window_info anchor="bottom" id="HDInsight Spark Submission" order="17" sideWeight="0.50053364" side_tool="true" weight="0.32731378" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="18" sideWeight="0.1969112" side_tool="true" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="19" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" order="20" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="21" sideWeight="0.88153684" weight="0.3295711" />
-      <window_info anchor="bottom" id="Messages" order="22" sideWeight="0.4967983" weight="0.35942492" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.022522522" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="CodeMR Metrics" order="9" />
-      <window_info anchor="right" id="CodeMR" order="10" weight="0.32977587" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
-      <window_info anchor="right" id="CDI" order="12" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -642,438 +516,116 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/sparksca" />
-      <path value="$PROJECT_DIR$/SparkMavenLearn" />
-    </ignored-roots>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/spark/project/AppTest.scala" />
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/com.spark.project.myObj$">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.spark.project.myObj$</OriginalElement>
-          <nodes>
-            <node x="" y="">com.spark.project.myObj$</node>
-            <node x="" y="">scala.App</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="56.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/target/sparksca-1.0-SNAPSHOT.jar!/META-INF/MANIFEST.MF" />
-    <entry file="jar://$PROJECT_DIR$/target/sparksca-1.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GeneralClass.scala" />
-    <entry file="file://$PROJECT_DIR$/0-SNAPSHOT.uml" />
-    <entry file="uml://MAVEN/com.spark.project:sparksca:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.spark.project:sparksca:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.spark.project:sparksca:1.0-SNAPSHOT</node>
-            <node x="" y="">org.scala-lang:scala-library:jar:2.11.0</node>
-            <node x="" y="">org.specs:specs:jar:1.2.5</node>
-            <node x="" y="">org.specs:specs:jar:1.2.5/junit:junit:jar:4.4</node>
-            <node x="" y="">org.specs:specs:jar:1.2.5/org.scalatest:scalatest:jar:0.9.1</node>
-            <node x="" y="">org.specs:specs:jar:1.2.5/org.scalacheck:scalacheck:jar:1.2</node>
-            <node x="" y="">org.specs:specs:jar:1.2.5/org.jmock:jmock:jar:2.4.0</node>
-            <node x="" y="">org.specs:specs:jar:1.2.5/org.jmock:jmock:jar:2.4.0/org.hamcrest:hamcrest-core:jar:1.1</node>
-            <node x="" y="">org.specs:specs:jar:1.2.5/org.jmock:jmock:jar:2.4.0/org.hamcrest:hamcrest-library:jar:1.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7/com.thoughtworks.paranamer:paranamer:jar:2.3</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7/org.xerial.snappy:snappy-java:jar:1.0.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7/org.apache.commons:commons-compress:jar:1.4.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7/org.apache.commons:commons-compress:jar:1.4.1/org.tukaani:xz:jar:1.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro:jar:1.7.7/org.slf4j:slf4j-api:jar:1.6.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:1.7.7/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:tests:1.7.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.apache.avro:avro-ipc:jar:tests:1.7.7/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.avro:avro-mapred:jar:hadoop2:1.7.7/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.twitter:chill_2.11:jar:0.8.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.twitter:chill_2.11:jar:0.8.0/org.scala-lang:scala-library:jar:2.11.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.twitter:chill_2.11:jar:0.8.0/com.esotericsoftware:kryo-shaded:jar:3.0.3</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.twitter:chill_2.11:jar:0.8.0/com.esotericsoftware:kryo-shaded:jar:3.0.3/com.esotericsoftware:minlog:jar:1.3.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.twitter:chill_2.11:jar:0.8.0/com.esotericsoftware:kryo-shaded:jar:3.0.3/org.objenesis:objenesis:jar:2.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.twitter:chill-java:jar:0.8.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.xbean:xbean-asm5-shaded:jar:4.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/com.google.guava:guava:jar:11.0.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-cli:commons-cli:jar:1.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.commons:commons-math3:jar:3.1.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/xmlenc:xmlenc:jar:0.52</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-httpclient:commons-httpclient:jar:3.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-httpclient:commons-httpclient:jar:3.1/commons-codec:commons-codec:jar:1.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-codec:commons-codec:jar:1.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-io:commons-io:jar:2.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-net:commons-net:jar:3.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-configuration:commons-configuration:jar:1.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-configuration:commons-configuration:jar:1.6/commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-configuration:commons-configuration:jar:1.6/commons-lang:commons-lang:jar:2.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.slf4j:slf4j-log4j12:jar:1.7.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.avro:avro:jar:1.7.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/com.google.protobuf:protobuf-java:jar:2.5.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/com.google.code.gson:gson:jar:2.2.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/commons-codec:commons-codec:jar:1.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.httpcomponents:httpclient:jar:4.2.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-asn1-api:jar:1.0.0-M20</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-asn1-api:jar:1.0.0-M20/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-util:jar:1.0.0-M20</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-util:jar:1.0.0-M20/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.hadoop:hadoop-auth:jar:2.6.5/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.curator:curator-client:jar:2.6.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.apache.curator:curator-client:jar:2.6.0/org.slf4j:slf4j-api:jar:1.7.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.htrace:htrace-core:jar:3.0.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-common:jar:2.6.5/org.htrace:htrace-core:jar:3.0.4/com.google.guava:guava:jar:12.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-hdfs:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-hdfs:jar:2.6.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-hdfs:jar:2.6.5/org.mortbay.jetty:jetty-util:jar:6.1.26</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-hdfs:jar:2.6.5/commons-codec:commons-codec:jar:1.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-hdfs:jar:2.6.5/io.netty:netty:jar:3.6.2.Final</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-hdfs:jar:2.6.5/xerces:xercesImpl:jar:2.9.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-hdfs:jar:2.6.5/xerces:xercesImpl:jar:2.9.1/xml-apis:xml-apis:jar:1.3.04</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5/org.apache.hadoop:hadoop-yarn-client:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5/org.apache.hadoop:hadoop-yarn-client:jar:2.6.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5/org.apache.hadoop:hadoop-yarn-server-common:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5/org.apache.hadoop:hadoop-yarn-server-common:jar:2.6.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.6.5/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.6.5/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.6.5/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-yarn-api:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-yarn-api:jar:2.6.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/javax.xml.bind:jaxb-api:jar:2.2.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/javax.xml.bind:jaxb-api:jar:2.2.2/javax.xml.stream:stax-api:jar:1.0-2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/javax.xml.bind:jaxb-api:jar:2.2.2/javax.activation:activation:jar:1.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/commons-codec:commons-codec:jar:1.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/org.codehaus.jackson:jackson-jaxrs:jar:1.9.13</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/org.codehaus.jackson:jackson-xc:jar:1.9.13</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.apache.hadoop:hadoop-yarn-common:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.6.5/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.6.5/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.6.5/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.hadoop:hadoop-client:jar:2.6.5/org.apache.hadoop:hadoop-annotations:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-launcher_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-network-common_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-network-common_2.11:jar:2.2.0/org.fusesource.leveldbjni:leveldbjni-all:jar:1.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-network-common_2.11:jar:2.2.0/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-network-shuffle_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-unsafe_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/org.apache.httpcomponents:httpcore:jar:4.3.3</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/org.apache.httpcomponents:httpclient:jar:4.3.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/org.apache.httpcomponents:httpclient:jar:4.3.6/commons-codec:commons-codec:jar:1.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/commons-codec:commons-codec:jar:1.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/org.codehaus.jackson:jackson-core-asl:jar:1.9.12</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/javax.activation:activation:jar:1.1.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/mx4j:mx4j:jar:3.0.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/javax.mail:mail:jar:1.4.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/javax.mail:mail:jar:1.4.7/javax.activation:activation:jar:1.1.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/org.bouncycastle:bcprov-jdk15on:jar:1.51</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/com.jamesmurty.utils:java-xmlbuilder:jar:1.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.java.dev.jets3t:jets3t:jar:0.9.3/com.jamesmurty.utils:java-xmlbuilder:jar:1.0/net.iharder:base64:jar:2.3.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.curator:curator-recipes:jar:2.6.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.curator:curator-recipes:jar:2.6.0/org.apache.curator:curator-framework:jar:2.6.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.curator:curator-recipes:jar:2.6.0/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.curator:curator-recipes:jar:2.6.0/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.6.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.curator:curator-recipes:jar:2.6.0/org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.curator:curator-recipes:jar:2.6.0/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.curator:curator-recipes:jar:2.6.0/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.commons:commons-lang3:jar:3.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.commons:commons-math3:jar:3.4.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.google.code.findbugs:jsr305:jar:1.3.9</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.slf4j:jul-to-slf4j:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.slf4j:jcl-over-slf4j:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.ning:compress-lzf:jar:1.0.3</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.xerial.snappy:snappy-java:jar:1.1.2.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.jpountz.lz4:lz4:jar:1.3.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.roaringbitmap:RoaringBitmap:jar:0.5.11</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/commons-net:commons-net:jar:2.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.scala-lang:scala-library:jar:2.11.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.json4s:json4s-ast_2.11:jar:3.2.11</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/com.thoughtworks.paranamer:paranamer:jar:2.6</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0/org.scala-lang:scala-reflect:jar:2.11.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0/org.scala-lang.modules:scala-xml_2.11:jar:1.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/org.json4s:json4s-core_2.11:jar:3.2.11/org.scala-lang:scalap:jar:2.11.0/org.scala-lang:scala-compiler:jar:2.11.0/org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.json4s:json4s-jackson_2.11:jar:3.2.11/com.fasterxml.jackson.core:jackson-databind:jar:2.3.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/javax.ws.rs:javax.ws.rs-api:jar:2.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34/org.glassfish.hk2:hk2-utils:jar:2.4.0-b34</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34/org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-locator:jar:2.4.0-b34</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-locator:jar:2.4.0-b34/org.javassist:javassist:jar:3.18.1-GA</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2/javax.annotation:javax.annotation-api:jar:1.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2/org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2/org.glassfish.hk2:osgi-resource-locator:jar:1.0.1</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-server:jar:2.22.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-server:jar:2.22.2/org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.core:jersey-server:jar:2.22.2/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.netty:netty-all:jar:4.0.43.Final</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.netty:netty:jar:3.9.9.Final</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.clearspring.analytics:stream:jar:2.7.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-core:jar:3.1.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-core:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-jvm:jar:3.1.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-jvm:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-json:jar:3.1.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-json:jar:3.1.2/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-json:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-graphite:jar:3.1.2</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/io.dropwizard.metrics:metrics-graphite:jar:3.1.2/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-core:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/org.scala-lang:scala-library:jar:2.11.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/org.scala-lang:scala-reflect:jar:2.11.7</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/org.scala-lang:scala-reflect:jar:2.11.7/org.scala-lang:scala-library:jar:2.11.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.6.5</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.6.5/com.thoughtworks.paranamer:paranamer:jar:2.3</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.ivy:ivy:jar:2.4.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/oro:oro:jar:2.0.8</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.razorvine:pyrolite:jar:4.13</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/net.sf.py4j:py4j:jar:0.10.4</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-tags_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.spark:spark-tags_2.11:jar:2.2.0/org.scala-lang:scala-library:jar:2.11.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.apache.commons:commons-crypto:jar:1.0.0</node>
-            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.2.0/org.spark-project.spark:unused:jar:1.0.0</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/com.univocity:univocity-parsers:jar:2.2.1</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.spark:spark-sketch_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.spark:spark-catalyst_2.11:jar:2.2.0</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.spark:spark-catalyst_2.11:jar:2.2.0/org.scala-lang:scala-reflect:jar:2.11.8</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.spark:spark-catalyst_2.11:jar:2.2.0/org.codehaus.janino:janino:jar:3.0.0</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.spark:spark-catalyst_2.11:jar:2.2.0/org.codehaus.janino:commons-compiler:jar:3.0.0</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.spark:spark-catalyst_2.11:jar:2.2.0/org.antlr:antlr4-runtime:jar:4.5.3</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.spark:spark-catalyst_2.11:jar:2.2.0/commons-codec:commons-codec:jar:1.10</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-column:jar:1.8.2</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-column:jar:1.8.2/org.apache.parquet:parquet-common:jar:1.8.2</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-column:jar:1.8.2/org.apache.parquet:parquet-common:jar:1.8.2/org.slf4j:slf4j-api:jar:1.7.16</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-column:jar:1.8.2/org.apache.parquet:parquet-encoding:jar:1.8.2</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-column:jar:1.8.2/org.apache.parquet:parquet-encoding:jar:1.8.2/commons-codec:commons-codec:jar:1.5</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-column:jar:1.8.2/commons-codec:commons-codec:jar:1.8</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-hadoop:jar:1.8.2</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-hadoop:jar:1.8.2/org.apache.parquet:parquet-format:jar:2.3.1</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-hadoop:jar:1.8.2/org.apache.parquet:parquet-jackson:jar:1.8.2</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-hadoop:jar:1.8.2/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-hadoop:jar:1.8.2/org.codehaus.jackson:jackson-core-asl:jar:1.9.11</node>
-            <node x="" y="">org.apache.spark:spark-sql_2.11:jar:2.2.0/org.apache.parquet:parquet-hadoop:jar:1.8.2/org.xerial.snappy:snappy-java:jar:1.1.1.6</node>
-            <node x="" y="">org.jmockit:jmockit:jar:1.43</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="378.0" y="1814.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBHelper/DBHelper.java" />
-    <entry file="file://$PROJECT_DIR$/DBHelper/SomeTable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_model_spark.sc" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="382" column="22" lean-forward="true" selection-start-line="382" selection-start-column="22" selection-end-line="382" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.12/2.4.0/spark-sql_2.12-2.4.0.jar!/org/apache/spark/sql/SparkSession.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.12/2.4.0/spark-sql_2.12-2.4.0-sources.jar!/org/apache/spark/sql/SparkSession.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_filmBased_sc.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_musicBased_sc.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7582">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ScalaOracleQueries.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GeneralTools.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankDataSetModel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkMLLIBDataTypes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_FrankExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3304">
-          <caret line="118" column="58" lean-forward="true" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank/scala.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataSet_Frank/scala.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkStreamingFrankExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/RegressionDataS_frank.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="40" column="58" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/Regression_Frank.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphTop10.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/Test10.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3406">
-          <caret line="171" column="26" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#27#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/ALM_Recommend_model_bookBased.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/USEFUL_LINKS">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="65" selection-start-line="8" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/SparkGraphGeneral.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3584">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
-            <element signature="e#27#71#0" expanded="true" />
+            <element signature="e#27#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GitCheetSheat">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="256" column="7" lean-forward="true" selection-start-line="256" selection-start-column="7" selection-end-line="256" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TestProjMav/edwd.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TestProjMav/edwd.scala" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#27#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Установка_проекта">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +658,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.5</last-edited>
+          <last-edited>scala-sdk-2.11.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1130,12 +682,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sparksca</last-edited>
+          <last-edited>Prok</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.31724137" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1155,7 +706,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.hamcrest:hamcrest-core:1.1</last-edited>
+          <last-edited>Maven: com.carrotsearch:hppc:0.7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

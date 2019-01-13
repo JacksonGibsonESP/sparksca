@@ -1,6 +1,6 @@
 package com.spark.project
 
-import java.nio.charset.CodingErrorAction
+import java.nio.charset._
 
 import breeze.linalg.max
 import org.apache.spark.SparkContext

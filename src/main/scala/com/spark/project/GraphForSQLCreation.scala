@@ -11,8 +11,7 @@ object HelloJGraphT extends App {
   /**
     * The starting point for the demo.
     *
-    * @param args ignored.
-    */
+    **/
 
 
   //scala magic
