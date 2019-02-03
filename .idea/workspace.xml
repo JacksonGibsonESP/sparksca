@@ -2,12 +2,249 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cce871e-6a35-44cf-b73c-e912be7e1113" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/JustScalaCookBook.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" />
-      <change beforePath="$PROJECT_DIR$/Установка_проекта" afterPath="$PROJECT_DIR$/Установка_проекта" />
+      <change beforePath="$PROJECT_DIR$/Prok.iml" afterPath="$PROJECT_DIR$/Prok.iml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScalaOracleQueries$.class" afterPath="$PROJECT_DIR$/target/classes/ScalaOracleQueries$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScalaOracleQueries$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/ScalaOracleQueries$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ScalaOracleQueries.class" afterPath="$PROJECT_DIR$/target/classes/ScalaOracleQueries.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleApp$.class" afterPath="$PROJECT_DIR$/target/classes/SimpleApp$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_FrankDataSet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_bookBased.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVD$sp$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVD$sp$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$10.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$11.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$12.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$13.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$13.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$14.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$15.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$15.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$16.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$16.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$17.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$17.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$18.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$18.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$19.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$19.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$20.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$20.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$9.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$computeRmse$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$computeRmse$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$computeRmse$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$$anonfun$computeRmse$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_filmBased.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ALM_Recommend_model_musicBased.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$33.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$33.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$34.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$34.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$35.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$35.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$36.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$36.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$37.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$$anonfun$37.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AmountSpentByCustomer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$26.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$26.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$27.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$27.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$28.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$28.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$29.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$29.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$30.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$30.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$31.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$$anonfun$31.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/AverageNumberOfFriends.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/BaseRecepiesSpark.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$$anonfun$bfsMap$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$$anonfun$bfsMap$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$$anonfun$convertToBFS$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$$anonfun$convertToBFS$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$$anonfun$createStartingRdd$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$$anonfun$createStartingRdd$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/DegreesOfSeparation.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Fib$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Fib.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Fib.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$50.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$50.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$51.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$51.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$52.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$52.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$53.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$53.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$54.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$$anonfun$54.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FilterWeatherDataMin.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$43.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$43.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$44.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$44.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$45.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$45.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$46.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$46.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$47.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$47.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$48.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$48.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$49.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$$anonfun$49.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/FlatMapProffWordCountWithFilterByStopWords.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GeneralTools.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GeneralTools.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$$anonfun$1$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$$anonfun$1$$anonfun$12.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$$anonfun$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/GraphMainBFS.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/HelloJGraphT.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$22.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$22.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$23.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$23.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$24.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$24.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$25.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$25.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$loadMovieName$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$$anonfun$loadMovieName$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MostPopularMovie.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$computeCosineSimilarity$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$$anonfun$computeCosineSimilarity$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/MovieSimilarities.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/ParseObj.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/ParseObj.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$typecreator5$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$$typecreator5$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RegressionDataS_frank.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/Regression_Frank.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4$$anonfun$apply$1$$anonfun$apply$2$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4$$anonfun$apply$1$$anonfun$apply$2$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4$$anonfun$apply$1$$anonfun$apply$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4$$anonfun$apply$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$10.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9$$anonfun$apply$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$9.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildArtistAlias$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildArtistAlias$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildArtistByID$1$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildArtistByID$1$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildArtistByID$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildArtistByID$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildCounts$1$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildCounts$1$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildCounts$1$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildCounts$1$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildCounts$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$buildCounts$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$evaluate$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$evaluate$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$preparation$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$anonfun$preparation$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator13$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator13$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator17$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator17$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator21$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator21$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator4$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator4$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator5$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator5$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator9$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender$$typecreator9$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/RunRecommender.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$13.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$13.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$14.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$15.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$15.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$16.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$16.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$17.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$17.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$18.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$18.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$19.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$19.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$20.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$20.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$21.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$$anonfun$21.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SocialGraphSearching.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass$class.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass$class.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkContextClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$$typecreator5$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$$typecreator5$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$Person$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$Person$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$Person.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkDSExample.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphGeneral$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphGeneral$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphGeneral$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphGeneral$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphGeneral.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphGeneral.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$9.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$makeEdges$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$$anonfun$makeEdges$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkGraphTop10.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints$$anonfun$32.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints$$anonfun$32.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkOptimisationHints.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$$anonfun$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$$typecreator13$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$$typecreator13$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$Person$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$Person$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$Person.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkSQLExample.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkStreamingFrankExample$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkStreamingFrankExample$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkStreamingFrankExample$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkStreamingFrankExample$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/SparkStreamingFrankExample.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/SparkStreamingFrankExample.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anon$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anon$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$38.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$38.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$39.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$39.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$40.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$40.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$41.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$41.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$42.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$$anonfun$42.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/TheMostPercepetationDayForDistrict.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/UploadDataForSimilarities$$anonfun$loadMovieNames$1.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/UploadDataForSimilarities$$anonfun$loadMovieNames$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/UploadDataForSimilarities.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/UploadDataForSimilarities.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$10.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$11.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$$anonfun$9.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$delayedInit$body.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount$delayedInit$body.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/WordCount.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spark/project/parseObjTrait.class" afterPath="$PROJECT_DIR$/target/classes/com/spark/project/parseObjTrait.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,7 +377,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="420">
               <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -150,8 +387,8 @@
       <file leaf-file-name="App.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="194">
+              <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding>
                 <element signature="e#27#52#0" expanded="true" />
               </folding>
@@ -159,10 +396,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Установка_проекта" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JustScalaCookBook.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/JustScalaCookBook.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Установка_проекта" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Установка_проекта">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="189">
               <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
               <folding />
             </state>
@@ -172,8 +419,8 @@
       <file leaf-file-name="GraphForSQLCreation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -223,6 +470,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala" />
         <option value="$PROJECT_DIR$/Установка_проекта" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/spark/project/JustScalaCookBook.scala" />
       </list>
     </option>
   </component>
@@ -292,35 +540,36 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prok" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prok" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prok" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prok" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Prok" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prok" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksca" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparksca" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -330,12 +579,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.sburlyaev.cmd.plugin.PluginSettings" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jre1.8.0_192" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.31724137" />
@@ -352,13 +600,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Hi">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Hi" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.spark.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.spark.project.Hi" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Prok" />
+      <envs />
+    </configuration>
+    <configuration name="SparkDSExample" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.spark.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.spark.project.SparkDSExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Prok" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -434,6 +720,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.SparkDSExample" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Hi" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Hi" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SparkDSExample" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
@@ -479,22 +775,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2685325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27228788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,6 +821,40 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#27#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Установка_проекта">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -597,7 +927,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/TestProjMav/edwd.scala" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="420">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -605,26 +935,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/GraphForSQLCreation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Установка_проекта">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/App.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="194">
+          <caret line="55" column="42" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
           <folding>
             <element signature="e#27#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Установка_проекта">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/project/JustScalaCookBook.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        <state relative-caret-position="210">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
