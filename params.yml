@@ -9,4 +9,10 @@ ift:
 local:
   firstName: "Fedor"
   lastName: "Ivanov"
+  #jdbc local parameters:
+  jdbcHostName: "localhost"
+  jdbcPort: "49161"
+  jdbcSid: "xe"
+  jdbcUserName: "auditor"
+  jdbcUserPassword: "qwe123"
 
