@@ -1,0 +1,12 @@
+prod:
+  firstName: "John"
+  lastName: "Doe"
+  age: 20
+ift:
+  firstName: "Alex"
+  lastName: "Jhonson"
+  age: 44
+local:
+  firstName: "Fedor"
+  lastName: "Ivanov"
+
