@@ -4,7 +4,7 @@ import java.util.Locale
 import java.sql.DriverManager
 import java.sql.Connection
 
-class AuthIdentifier(val host: String, val port: String, val sid: String, val username: String, val password: String) {
+class AuthSource(val host: String, val port: String, val sid: String, val username: String, val password: String) extends Auth {
 
   def getConnection(): Connection = {
     val driver = "oracle.jdbc.OracleDriver"

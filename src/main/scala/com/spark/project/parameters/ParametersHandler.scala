@@ -6,7 +6,7 @@ import org.yaml.snakeyaml.Yaml
 
 import scala.collection.JavaConversions.mapAsScalaMap
 
-class ArgumentsHandler(val envName: String) {
+class ParametersHandler(val envName: String) {
 
   def getParameters: Map[String, String] = {
     val yaml = new Yaml()

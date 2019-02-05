@@ -1,18 +1,18 @@
 package com.spark.project
 
-import com.spark.project.auth.AuthIdentifier
+import com.spark.project.auth.AuthSource
 import com.spark.project.parameters.Parameters._
-import com.spark.project.parameters.ArgumentsHandler
+import com.spark.project.parameters.ParametersHandler
 
 object Main extends App {
-  val argHandler = new ArgumentsHandler("local")
+  val argHandler = new ParametersHandler("local")
   val parameters = argHandler.getParameters
   print("Считанные параметры: ")
   println(parameters.mkString(", "))
 
-  println(parameters.get(AGE))
+//  println(parameters.get(AGE))
 
-  val jdbcAuth = new AuthIdentifier(
+  val jdbcAuth = new AuthSource(
     parameters(JDBC_HOSTNAME),
     parameters(JDBC_PORT),
     parameters(JDBC_SID),
