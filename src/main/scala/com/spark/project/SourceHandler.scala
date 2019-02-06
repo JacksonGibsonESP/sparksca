@@ -12,7 +12,7 @@ class SourceHandler(val connection: Connection, val tableName: String) {
   }
 
   def checkSource(): Unit = {
-    if (incrField.trim.isEmpty) {
+    if (incrField.isEmpty) {
       val query = "SELECT COUNT(*) FROM " + tableName
       println("Исполнение запроса: " + query)
       val statement = connection.createStatement()
@@ -38,7 +38,7 @@ class SourceHandler(val connection: Connection, val tableName: String) {
   }
 
   def getResultSet(): ResultSet = {
-    if (incrField.trim.isEmpty) {
+    if (incrField.isEmpty) {
       val query = "SELECT * FROM " + tableName
       println("Исполнение запроса: " + query)
       val statement = connection.createStatement()

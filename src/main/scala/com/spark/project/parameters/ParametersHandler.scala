@@ -18,7 +18,7 @@ class ParametersHandler(val envName: String) {
       if (envParameters == null) {
         throw new Exception("Не найдены параметры для запрошенного стенда: " + envName)
       }
-      val map = mapAsScalaMap(envParameters)
+      val map = mapAsScalaMap(envParameters).map{case (key, value) => (key, value.trim)}
       if (!Parameters.necessaryParameters.subsetOf(map.keySet)) {
         throw new Exception("Конфигурационный файл не содержит всех необходимых параметров.")
       }
