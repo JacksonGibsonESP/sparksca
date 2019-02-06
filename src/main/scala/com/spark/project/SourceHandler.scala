@@ -21,7 +21,7 @@ class SourceHandler(val connection: Connection, val tableName: String) {
       val count = resultSet.getLong(1)
       println("Результат: " + count)
       if (count == 0) {
-        throw new Exception("В таблице отсутсвуют данные, соответсвующие исполняемому запросу")
+        throw new Exception("В таблице отсутствуют данные, соответствующие исполняемому запросу")
       }
     } else {
       val statement = connection.createStatement()
@@ -32,23 +32,23 @@ class SourceHandler(val connection: Connection, val tableName: String) {
       val count = resultSet.getLong(1)
       println("Результат: " + count)
       if (count == 0) {
-        throw new Exception("В таблице отсутсвуют данные, соответсвующие исполняемому запросу")
+        throw new Exception("В таблице отсутствуют данные, соответствующие исполняемому запросу")
       }
     }
   }
 
-  def getResultSet(): ResultSet = {
-    if (incrField.isEmpty) {
-      val query = "SELECT * FROM " + tableName
-      println("Исполнение запроса: " + query)
-      val statement = connection.createStatement()
-      statement.executeQuery(query)
-    } else {
-      val statement = connection.createStatement()
-      val query = "SELECT * FROM " + tableName + " WHERE " + incrField + " IN (SELECT MAX(" + incrField + ") FROM " + tableName + ")"
-      println("Исполнение запроса: " + query)
-      val resultSet: ResultSet = statement.executeQuery(query)
-      statement.executeQuery(query)
-    }
-  }
+  //  def getResultSet(): ResultSet = {
+  //    if (incrField.isEmpty) {
+  //      val query = "SELECT * FROM " + tableName
+  //      println("Исполнение запроса: " + query)
+  //      val statement = connection.createStatement()
+  //      statement.executeQuery(query)
+  //    } else {
+  //      val statement = connection.createStatement()
+  //      val query = "SELECT * FROM " + tableName + " WHERE " + incrField + " IN (SELECT MAX(" + incrField + ") FROM " + tableName + ")"
+  //      println("Исполнение запроса: " + query)
+  //      val resultSet: ResultSet = statement.executeQuery(query)
+  //      statement.executeQuery(query)
+  //    }
+  //  }
 }
