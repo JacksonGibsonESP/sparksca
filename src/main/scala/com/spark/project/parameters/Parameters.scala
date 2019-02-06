@@ -2,22 +2,16 @@ package com.spark.project.parameters
 
 
 object Parameters {
-  //JDBC connection parameters:
-  val JDBC_HOSTNAME = "jdbcHostName"
-  val JDBC_PORT = "jdbcPort"
-  val JDBC_SID = "jdbcSid"
-  val JDBC_USERNAME = "jdbcUserName"
-  val JDBC_USERPASSWORD = "jdbcUserPassword"
-
   //Data source information:
-  val TABLENAME = "tableName"
-  val INCRFIELD = "incrField"
+  val BUSINESS_SYSTEM_NAME = "businessSystemName"
+  val BUSINESS_SYSTEM_USER_NAME = "businessSystemUserName"
+  val BUSINESS_SYSTEM_USER_PASSWORD = "businessSystemUserPassword"
+  val TABLE_NAME = "tableName"
+  val INCREMENT_FIELD = "incrementField"
 
   val necessaryParameters = Set(
-    JDBC_HOSTNAME,
-    JDBC_PORT,
-    JDBC_SID,
-    JDBC_USERNAME,
-    JDBC_USERPASSWORD,
-    TABLENAME)
+    BUSINESS_SYSTEM_NAME,
+    BUSINESS_SYSTEM_USER_NAME,
+    BUSINESS_SYSTEM_USER_PASSWORD,
+    TABLE_NAME)
 }

@@ -5,23 +5,26 @@ import com.spark.project.parameters.Parameters._
 import com.spark.project.parameters.ParametersHandler
 
 object Main extends App {
-  val argHandler = new ParametersHandler("local")
-  val parameters = argHandler.getParameters
+  val parameters = ParametersHandler.parameters
   print("Считанные параметры: ")
   println(parameters.mkString(", "))
 
+  val sourceConnectionDescriptions = new SourceConnectionDescriptions
+
+  val arr = sourceConnectionDescriptions.findname(parameters(BUSINESS_SYSTEM_NAME))
+
   val jdbcAuth = new AuthSource(
-    parameters(JDBC_HOSTNAME),
-    parameters(JDBC_PORT),
-    parameters(JDBC_SID),
-    parameters(JDBC_USERNAME),
-    parameters(JDBC_USERPASSWORD))
+    arr(0),
+    arr(1),
+    arr(2),
+    parameters(BUSINESS_SYSTEM_USER_NAME),
+    parameters(BUSINESS_SYSTEM_USER_PASSWORD))
 
   val connection = jdbcAuth.getConnection()
 
   try {
 
-    var sourceHandler = new SourceHandler(connection, parameters(TABLENAME))
+    var sourceHandler = new SourceHandler(connection, parameters(TABLE_NAME))
 
     sourceHandler.checkSource()
 
@@ -34,8 +37,8 @@ object Main extends App {
       println("id, name, dt: " + id + ", " + name + ", " + dt)
     }
 
-    if (parameters.get(INCRFIELD).nonEmpty) {
-      val sourceHandler = new SourceHandler(connection, parameters(TABLENAME), parameters(INCRFIELD))
+    if (parameters.get(INCREMENT_FIELD).nonEmpty) {
+      val sourceHandler = new SourceHandler(connection, parameters(TABLE_NAME), parameters(INCREMENT_FIELD))
 
       sourceHandler.checkSource()
 
