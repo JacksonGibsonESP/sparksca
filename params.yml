@@ -1,6 +1,10 @@
 local:
+  #JDBC connection parameters:
   jdbcHostName: "localhost"
   jdbcPort: "49161"
   jdbcSid: "xe"
   jdbcUserName: "auditor"
   jdbcUserPassword: "qwe123"
+  #Data source information:
+  tableName: "audit_items2"
+  incrField: "dt"

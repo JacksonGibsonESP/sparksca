@@ -10,8 +10,6 @@ object Main extends App {
   print("Считанные параметры: ")
   println(parameters.mkString(", "))
 
-//  println(parameters.get(AGE))
-
   val jdbcAuth = new AuthSource(
     parameters(JDBC_HOSTNAME),
     parameters(JDBC_PORT),
@@ -19,24 +17,42 @@ object Main extends App {
     parameters(JDBC_USERNAME),
     parameters(JDBC_USERPASSWORD))
 
-  try {
-    val connection = jdbcAuth.getConnection()
+  val connection = jdbcAuth.getConnection()
 
-    try {
-      val statement = connection.createStatement()
-      val resultSet = statement.executeQuery("SELECT * FROM audit_items")
+  try {
+
+    var sourceHandler = new SourceHandler(connection, parameters(TABLENAME))
+
+    sourceHandler.checkSource()
+
+    var resultSet = sourceHandler.getResultSet()
+
+    while (resultSet.next()) {
+      val id = resultSet.getLong("id")
+      val name = resultSet.getString("name")
+      val dt = resultSet.getTimestamp("dt")
+      println("id, name, dt: " + id + ", " + name + ", " + dt)
+    }
+
+    if (parameters.get(INCRFIELD).nonEmpty) {
+      val sourceHandler = new SourceHandler(connection, parameters(TABLENAME), parameters(INCRFIELD))
+
+      sourceHandler.checkSource()
+
+      val resultSet = sourceHandler.getResultSet()
+
       while (resultSet.next()) {
         val id = resultSet.getLong("id")
         val name = resultSet.getString("name")
         val dt = resultSet.getTimestamp("dt")
         println("id, name, dt: " + id + ", " + name + ", " + dt)
       }
-    } finally {
-      connection.close()
     }
   } catch {
     case e: Throwable =>
       println("Ошибка во время установки соединения с базой данных.")
       throw e
+  } finally {
+    connection.close()
   }
 }
