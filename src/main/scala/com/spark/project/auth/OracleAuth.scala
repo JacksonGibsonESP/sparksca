@@ -1,11 +1,9 @@
 package com.spark.project.auth
 
+import java.sql.{Connection, DriverManager}
 import java.util.Locale
-import java.sql.DriverManager
-import java.sql.Connection
 
-class AuthSource(val host: String, val port: String, val sid: String, val username: String, val password: String) extends Auth {
-
+class OracleAuth(host: String, port: String, sid: String, username: String, password: String) extends Auth {
   def getConnection(): Connection = {
     val driver = "oracle.jdbc.OracleDriver"
     //  Thin driver

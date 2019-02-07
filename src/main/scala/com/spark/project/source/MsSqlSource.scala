@@ -1,8 +1,8 @@
-package com.spark.project
+package com.spark.project.source
 
 import java.sql.{Connection, ResultSet}
 
-class SourceHandler(val connection: Connection, val tableName: String) {
+class MsSqlSource(connection: Connection, tableName: String) extends Source {
 
   private var incrField: String = ""
 
@@ -15,40 +15,51 @@ class SourceHandler(val connection: Connection, val tableName: String) {
     if (incrField.isEmpty) {
       val query = "SELECT COUNT(*) FROM " + tableName
       println("Исполнение запроса: " + query)
+
       val statement = connection.createStatement()
       val resultSet: ResultSet = statement.executeQuery(query)
+
       resultSet.next()
       val count = resultSet.getLong(1)
       println("Результат: " + count)
+
       if (count == 0) {
         throw new Exception("В таблице отсутствуют данные, соответствующие исполняемому запросу")
       }
     } else {
-      val statement = connection.createStatement()
-      val query = "SELECT COUNT(*) FROM " + tableName + " WHERE " + incrField + " IN (SELECT MAX(" + incrField + ") FROM " + tableName + ")"
+      val query = "SELECT COUNT(*) FROM " + tableName + " WHERE " + incrField +
+        " = (SELECT MAX(" + incrField + ") FROM " + tableName + ")"
       println("Исполнение запроса: " + query)
+
+      val statement = connection.createStatement()
       val resultSet: ResultSet = statement.executeQuery(query)
+
       resultSet.next()
       val count = resultSet.getLong(1)
       println("Результат: " + count)
+
       if (count == 0) {
         throw new Exception("В таблице отсутствуют данные, соответствующие исполняемому запросу")
       }
     }
   }
 
-  //  def getResultSet(): ResultSet = {
-  //    if (incrField.isEmpty) {
-  //      val query = "SELECT * FROM " + tableName
-  //      println("Исполнение запроса: " + query)
-  //      val statement = connection.createStatement()
-  //      statement.executeQuery(query)
-  //    } else {
-  //      val statement = connection.createStatement()
-  //      val query = "SELECT * FROM " + tableName + " WHERE " + incrField + " IN (SELECT MAX(" + incrField + ") FROM " + tableName + ")"
-  //      println("Исполнение запроса: " + query)
-  //      val resultSet: ResultSet = statement.executeQuery(query)
-  //      statement.executeQuery(query)
-  //    }
-  //  }
+//  def getResultSet(): ResultSet = {
+//    if (incrField.isEmpty) {
+//      val query = "SELECT * FROM " + tableName
+//      println("Исполнение запроса: " + query)
+//
+//      val statement = connection.createStatement()
+//      statement.executeQuery(query)
+//    } else {
+//      val query = "SELECT * FROM " + tableName + " WHERE " + incrField +
+//        " = (SELECT MAX(" + incrField + ") FROM " + tableName + ")"
+//      println("Исполнение запроса: " + query)
+//
+//      val statement = connection.createStatement()
+//      val resultSet: ResultSet = statement.executeQuery(query)
+//      statement.executeQuery(query)
+//    }
+//  }
 }
+

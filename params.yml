@@ -1,6 +1,19 @@
 #Data source information:
-businessSystemName: "kih"
-businessSystemUserName: "auditor"
-businessSystemUserPassword: "qwe123"
-tableName: "audit_items"
-incrementField: "dt"
+LOGIN_SOURCE:
+PASSWORD_SOURCE:
+#ods/kih/khd
+SYSTEM:
+#Схема для Oracle, Database для MsSql
+SCHEMA:
+#Имя таблицы или полный путь к файлу:
+OBJECT_NAME:
+#Слепок - full, инкремент - имя поля
+LOAD_TYPE:
+
+#Target information
+HADOOP_FILE_PATH: "/path/in/hadoop/directory"
+HIVE_TABLE_NAME: "schema.table_name"
+#By default "parquet", other "orc", "avro", "csv":
+SAVE_DATA_TYPE:
+#By default is off, choose: "bzip2", "gzip", "lz4", "snappy"
+COMPRESS_FORMAT:

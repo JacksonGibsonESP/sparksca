@@ -1,3 +1,7 @@
 package com.spark.project.auth
 
-trait Auth
+import java.sql.Connection
+
+trait Auth {
+  def getConnection(): Connection
+}
