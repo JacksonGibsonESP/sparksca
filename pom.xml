@@ -154,7 +154,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.spark.project.ALM_Recommend_model_filmBased</mainClass>
+              <mainClass>com.spark.project.SparkDSExample</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>

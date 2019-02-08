@@ -73,7 +73,12 @@ object SparkDSExample extends App with SparkContextClass {
 
   // Конвертируем наш файлик в DataSet используем наш кастомный DataSet - person
   // После чего можем с табличкой работать как с объектом
+
+
   import spark.implicits._
+
+
+
   val lines = spark.sparkContext.textFile(total_general_path + "/SparkScala/fakefriends.csv")
   val people = lines.map(mapper).toDS().cache()
 
@@ -86,7 +91,24 @@ object SparkDSExample extends App with SparkContextClass {
 
   people.groupBy("age").count().show()
 
-  people.select(people("name"), people("age") + 10).show()
+
+
+
+
+//  spark.sparkContext.getConf.getAll.foreach(println)
+
+
+//  people.groupBy("age").count().explain()
+//
+//  people.groupBy("age").count().stat
+//
+//  people.groupBy("age").count().summary().explain()
+//
+//  people.groupBy("age").count().queryExecution
+
+//  Thread.sleep(100000)
+//
+//  people.select(people("name"), people("age") + 10).show()
 
   spark.stop()
 

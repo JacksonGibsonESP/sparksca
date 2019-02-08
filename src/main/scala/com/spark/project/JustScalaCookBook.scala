@@ -8,5 +8,5 @@ class JustScalaCookBook {
 
 object Hi extends App {
 
-  println("Hello")
+  println("Hello11")
 }
