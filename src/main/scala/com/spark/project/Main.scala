@@ -5,6 +5,8 @@ import com.spark.project.parameters.ParametersHandler
 import com.spark.project.source.SourceHandler
 
 object Main extends App {
+//  ParametersHandler.initParametersFromFile()
+  ParametersHandler.initParametersFromArgs(args)
   val parameters = ParametersHandler.parameters
   print("Считанные параметры: ")
   println(parameters.mkString(", "))
