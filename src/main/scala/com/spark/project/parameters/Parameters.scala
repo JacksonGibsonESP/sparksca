@@ -18,6 +18,7 @@ object Parameters {
   val HIVE_TABLE_NAME = "HIVE_TABLE_NAME"
   val SAVE_DATA_TYPE = "SAVE_DATA_TYPE"
   val COMPRESS_FORMAT = "COMPRESS_FORMAT"
+  val TABLE_SAVE_MODE = "TABLE_SAVE_MODE"
 
   //Constants:
   val FULL_LOAD_TYPE = "full"

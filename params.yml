@@ -17,3 +17,5 @@ HIVE_TABLE_NAME: "schema.table_name"
 SAVE_DATA_TYPE:
 #By default is off, choose: "bzip2", "gzip", "lz4", "snappy"
 COMPRESS_FORMAT:
+#By default append, other overwrite, ignore, errorifexists
+TABLE_SAVE_MODE:
