@@ -151,6 +151,11 @@
       <artifactId>mssql-jdbc</artifactId>
       <version>7.0.0.jre8</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.oozie</groupId>
+      <artifactId>oozie-client</artifactId>
+      <version>4.1.0</version>
+    </dependency>
   </dependencies>
 
 
@@ -186,7 +191,7 @@
               <archive>
                 <manifest>
                   <mainClass>
-                    com.spark.project.Test
+                    com.spark.project.Oozie
                   </mainClass>
                 </manifest>
               </archive>
