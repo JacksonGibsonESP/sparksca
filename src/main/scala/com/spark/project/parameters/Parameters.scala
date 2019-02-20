@@ -12,6 +12,7 @@ object Parameters {
   val DB_TYPE = "DB_TYPE"
   val OBJECT_NAME = "OBJECT_NAME"
   val LOAD_TYPE = "LOAD_TYPE"
+  val DATABASE_ADDRESS = "DATABASE_ADDRESS"
 
   //Target information
   val HADOOP_FILE_PATH = "HADOOP_FILE_PATH"
@@ -29,10 +30,11 @@ object Parameters {
   val necessaryParameters = Set(
     LOGIN_SOURCE,
     PASSWORD_SOURCE,
-    SYSTEM,
+//    SYSTEM,
     SCHEMA,
     OBJECT_NAME,
     LOAD_TYPE,
     HADOOP_FILE_PATH,
-    HIVE_TABLE_NAME)
+    HIVE_TABLE_NAME,
+    DATABASE_ADDRESS)
 }

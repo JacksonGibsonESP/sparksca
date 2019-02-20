@@ -50,13 +50,18 @@ object ParametersHandler {
       throw new Exception("Не переданы все необходимые параметры.")
     }
 
-    val connectionParams = scd.findname(map(Parameters.SYSTEM))
+//    val connectionParams = scd.findname(map(Parameters.SYSTEM))
+//    res = res + (Parameters.HOST -> connectionParams(0))
+//    res = res + (Parameters.PORT -> connectionParams(1))
+//    if (connectionParams(2).nonEmpty) {
+//      res = res + (Parameters.SID -> connectionParams(2))
+//    }
+//    res = res + (Parameters.DB_TYPE -> connectionParams(3))
+    val connectionParams = map(Parameters.DATABASE_ADDRESS).split(":")
     res = res + (Parameters.HOST -> connectionParams(0))
     res = res + (Parameters.PORT -> connectionParams(1))
-    if (connectionParams(2).nonEmpty) {
-      res = res + (Parameters.SID -> connectionParams(2))
-    }
-    res = res + (Parameters.DB_TYPE -> connectionParams(3))
+    res = res + (Parameters.SID -> connectionParams(2))
+    res = res + (Parameters.DB_TYPE -> "dbtypeoracle")
     res
   }
 }
