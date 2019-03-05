@@ -1,0 +1,30 @@
+0) Необходимо использовать докер образ с анакондой 3: https://hub.docker.com/r/continuumio/anaconda3
+
+1) Скачать образ и запустить контейнер:
+    docker pull continuumio/anaconda3
+    docker run -i -t -v /home/nikita/workspace/anaconda:/nikita continuumio/anaconda3 /bin/bash
+
+    где /home/nikita/workspace/anaconda:/nikita - путь к шаре на хосте и гостевой ос соответственно, работает в обе стороны.
+
+2) Выполнить в контейнере последовательность комманд:
+    apt-get update
+    apt install software-properties-common
+    apt install gpg
+    add-apt-repository "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main"
+    apt-get install oracle-java8-installer
+    export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+    apt-get install gcc
+    pip install jep
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/conda/lib/python3.7/site-packages/jep
+
+    Чтобы не выполнять каждый раз объявление системных переменных, необходимо добавить их в ~/.bashrc:
+        apt-get install nano
+        nano ~/.bashrc
+
+        добавить в конец файла строки:
+        export JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/conda/lib/python3.7/site-packages/jep
+
+        выполнить source ~/.bashrc
+
+3) Исполнить jar командой java -jar

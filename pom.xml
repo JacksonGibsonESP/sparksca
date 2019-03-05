@@ -8,6 +8,8 @@
     <properties>
         <scala.version>2.11.8</scala.version>
         <spark.version>2.3.0</spark.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <!--work configs:2.11.8 - > 2.2.2-->
@@ -200,7 +202,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        com.spark.project.Oozie
+                                        com.spark.project.Python
                                     </mainClass>
                                 </manifest>
                             </archive>
